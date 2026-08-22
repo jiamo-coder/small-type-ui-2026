@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">小算盘</title>
+  <rect width="64" height="64" rx="16" fill="#FFF5E8"/>
+  <rect x="13" y="15" width="38" height="34" rx="7" fill="#FFFFFF" stroke="#A85C17" stroke-width="3"/>
+  <path d="M20 20v24M28 20v24M36 20v24M44 20v24" stroke="#D9A66E" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#D9872B" stroke="#A85C17" stroke-width="1.5">
+    <rect x="16" y="24" width="8" height="6" rx="3"/><rect x="24" y="34" width="8" height="6" rx="3"/>
+    <rect x="32" y="27" width="8" height="6" rx="3"/><rect x="40" y="37" width="8" height="6" rx="3"/>
+  </g>
+  <path d="M18 53h28" stroke="#A85C17" stroke-width="3" stroke-linecap="round" opacity=".28"/>
+</svg>
