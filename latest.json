@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "updated": "2026-08-23"
   },
   "channel": "stable",
@@ -11,19 +11,19 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "f17c4a621ad4833896ebec161706f5b5696f41086547f5031a7543cef3e9b03b"
+      "sha256": "1a87ea0e952f2addc74d1a16d56d55a6d5329d5f3f08ed67c5e6283446770b83"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "0f9c4395f11ba2ded8120e88f2f232f819c4b142492c344d4ed25b4ef88fd5a5"
+      "sha256": "681a7c4cee47cd76266495747ad8ee990a7c8e668d5210db2634e091c898171f"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "3e1bb8b7e4f0a6794407fbac8b8d5acc6814babca5b62c8796ca43b517146bb5"
+      "sha256": "644a5b98c21e3041f3d7f08401fe60256eb9bb4d383ce3c09ea66320fbbda9c9"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "01248cf93a534cc8fd211faa0e4f26858053622cee4c6124b12116ed3209ff78"
+      "sha256": "afbf9a8eb77276dfdb769bf159bf075594ef06bccdf2bcd36d049d4b5f0c3756"
     },
     "icons": {
       "xiaoputao": {
@@ -63,13 +63,27 @@
         "sha256": "b062a7d74229eb85b505ffc0e4817738ad507587269627d563284e52a4e2f0e1"
       }
     },
+    "commonIcons": {
+      "json": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.json",
+        "sha256": "b1f0111a48ccd311341fd001ece806dd10fbfb99129725c1506a2d919cc41b1d"
+      },
+      "svg": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.svg",
+        "sha256": "c0ccb128099567beda0a3d1e2ce4c8afb94dc588a7078f0fb810157efb13d3cd"
+      },
+      "ts": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
+        "sha256": "199a953708c4f5957838574317d820f41a0ab6a3bf20b301828cd154c37f7172"
+      }
+    },
     "package": {
       "url": "https://store-health-ops-cn.evans-jm3.chatgpt.site/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "3a9aeacebd566cb6f82b4b9243ec99aa015518ded6ec1d7c95884248d3c5f99f"
+      "sha256": "17f841080ef22cc7bbb255d32b54b7bc45098fb3f977bcc0da3ea50b40adc1f4"
     }
   },
   "compatibility": {
-    "minimumBootstrapVersion": "2.0.4",
+    "minimumBootstrapVersion": "2.0.5",
     "remoteContentPolicy": "reference-data-only"
   }
 }
