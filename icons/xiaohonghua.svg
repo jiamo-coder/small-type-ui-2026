@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">小红花</title>
+  <rect width="64" height="64" rx="16" fill="#FFF0F4"/>
+  <g fill="#DE4F6B" stroke="#B73553" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M32 12c6.2 0 9.3 6.7 5.8 12.2L32 33l-5.8-8.8C22.7 18.7 25.8 12 32 12Z"/>
+    <path d="M51 25.8c1.9 5.9-3.5 10.8-9.6 8.9L31 31.5l6.6-8.1c4.1-5 11.5-3.5 13.4 2.4Z"/>
+    <path d="M43.7 48.2c-5 3.7-11.3 0-11.5-6.4L32 31l9.8 3.8c6 2.3 7 9.7 1.9 13.4Z"/>
+    <path d="M20.3 48.2c-5-3.7-4.1-11.1 1.9-13.4L32 31l-.2 10.8c-.2 6.4-6.5 10.1-11.5 6.4Z"/>
+    <path d="M13 25.8c1.9-5.9 9.3-7.4 13.4-2.4l6.6 8.1-10.4 3.2C16.5 36.6 11.1 31.7 13 25.8Z"/>
+  </g>
+  <circle cx="32" cy="31" r="8.2" fill="#FFFFFF" stroke="#B73553" stroke-width="2"/>
+  <circle cx="32" cy="31" r="3.6" fill="#B73553"/>
+</svg>
