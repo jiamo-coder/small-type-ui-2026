@@ -3,8 +3,15 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.0.4
+Version: 2.0.5
 ```
+
+## 2.0.5 — 2026-08-23
+
+- 新增 68 枚通用界面图标，覆盖导航、操作、状态、数据和业务对象五类高频场景。
+- 统一 24×24 ViewBox、1.75px 线宽、圆角端点、尺寸分级、触控区和可访问性规则。
+- 增加 `common-icons.json` 目录、`common-icons.svg` Sprite 与 `common-icons.ts` 工程映射。
+- 在线图标库、共享包、动态 GitHub 规范源和 Codex Skill 同步提供相同图标资产。
 
 ## 2.0.4 — 2026-08-23
 
