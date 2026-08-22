@@ -1,0 +1,37 @@
+{
+  "standard": {
+    "name": "2026 小字号 UI 2.0",
+    "id": "small-type-ui-2026",
+    "version": "2.0.3",
+    "updated": "2026-08-23"
+  },
+  "channel": "stable",
+  "generatedAt": "2026-08-23T00:00:00+08:00",
+  "trustedOrigin": "https://raw.githubusercontent.com",
+  "resources": {
+    "designSystem": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
+      "sha256": "73e36459557fc9ca7b57e86bef7b33486bb39a719bdb4e78dcce9738f9f2d9e5"
+    },
+    "tokens": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
+      "sha256": "3c4ee4b4e98fa151dc2414acb5502c696ef7626bee6159822651619bf57fe318"
+    },
+    "changelog": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
+      "sha256": "ac8eef1c550391ffd21f23bc57476ff19ed77d2549bfff6afac49249014cbe1b"
+    },
+    "skillSnapshot": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
+      "sha256": "d139c0f44c735401ce9e0c81305290293691163257d763114a8bc7157e27e0e8"
+    },
+    "package": {
+      "url": "https://store-health-ops-cn.evans-jm3.chatgpt.site/downloads/2026-small-type-ui-2.0.zip",
+      "sha256": "2788a8e73961416ccd232e1ab2bcd066a95e55eaefa84c7430c0b5c9696e7bd4"
+    }
+  },
+  "compatibility": {
+    "minimumBootstrapVersion": "2.0.3",
+    "remoteContentPolicy": "reference-data-only"
+  }
+}
