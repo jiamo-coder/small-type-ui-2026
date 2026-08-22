@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">小金矿</title>
+  <rect width="64" height="64" rx="16" fill="#FFF8DD"/>
+  <path d="m18 29 8-13h15l7 12-5 17-12 7-12-8-1-15Z" fill="#C99A29" stroke="#8B6814" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="m26 16 5 13 10-13M31 29l12 16M31 29 19 44" fill="none" stroke="#FFF4B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49 11v8M45 15h8M15 16v5M12.5 18.5h5" stroke="#8B6814" stroke-width="2.3" stroke-linecap="round"/>
+  <circle cx="49" cy="15" r="1.8" fill="#FFFFFF"/>
+</svg>
