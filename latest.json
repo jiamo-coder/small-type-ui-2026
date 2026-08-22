@@ -11,7 +11,7 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "73e36459557fc9ca7b57e86bef7b33486bb39a719bdb4e78dcce9738f9f2d9e5"
+      "sha256": "d8bcc8a0b3b0e68080b2bd9777e4ea4f9a86714646c20e7e2a64416d1a36853c"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
@@ -19,7 +19,7 @@
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "ac8eef1c550391ffd21f23bc57476ff19ed77d2549bfff6afac49249014cbe1b"
+      "sha256": "fe36ecf17d4ada2e56d60a7fdeeb7a3ae022664e1ed364c19ed927bd869f71df"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
@@ -27,7 +27,7 @@
     },
     "package": {
       "url": "https://store-health-ops-cn.evans-jm3.chatgpt.site/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "2788a8e73961416ccd232e1ab2bcd066a95e55eaefa84c7430c0b5c9696e7bd4"
+      "sha256": "9c29efe9b4613ba26addd7565ee2cbbe814646322c3090f2812c69dd030a103f"
     }
   },
   "compatibility": {
