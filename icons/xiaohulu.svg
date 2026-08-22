@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">小葫芦</title>
+  <rect width="64" height="64" rx="16" fill="#EAF8F1"/>
+  <path d="M32 18c-5.5 0-9 4-9 9 0 3 1.4 5.6 3.5 7.4C22.5 36.5 20 40.6 20 45c0 7 5.3 11 12 11s12-4 12-11c0-4.4-2.5-8.5-6.5-10.6C39.6 32.6 41 30 41 27c0-5-3.5-9-9-9Z" fill="#2E9B72" stroke="#17694D" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="M31 18c.3-4.2 2.3-6.8 5.8-8" fill="none" stroke="#17694D" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M36 12c4.5-1.8 8-.9 10.5 2.7-4.2 2.4-7.9 2-11-1.1" fill="#91D2B6" stroke="#17694D" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M27 40c2.8 1.8 7.2 1.8 10 0" fill="none" stroke="#D7F4E7" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
