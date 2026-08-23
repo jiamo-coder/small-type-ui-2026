@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.0.9
+// Version: 2.0.10
 export type ExternalBrandAssetStatus = 'official-source' | 'fallback';
 export type ExternalBrandAsset = {
   status: ExternalBrandAssetStatus;
@@ -24,7 +24,7 @@ export type ExternalBrandAsset = {
 export const externalBrandAssetManifest = {
   "standard": "small-type-ui-2026",
   "version": "1.1.0",
-  "generatedAt": "2026-08-23T08:21:40.880Z",
+  "generatedAt": "2026-08-23T08:47:39.161Z",
   "count": 59,
   "officialSourceCount": 59,
   "fallbackCount": 0,
@@ -114,16 +114,16 @@ export const externalBrandAssetManifest = {
     },
     "douyin": {
       "status": "official-source",
-      "officialPageUrl": "https://www.douyin.com/",
-      "sourceUrl": "https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico",
-      "discovery": "official-origin-favicon",
-      "localPath": "/external-brands/assets/douyin.ico",
-      "mimeType": "image/x-icon",
-      "width": 32,
-      "height": 32,
-      "byteLength": 4286,
-      "sha256": "e67348e3ab54fa207e1ce4be78e8399d1b73a794d819a17d8656ea2b17a1109d",
-      "retrievedAt": "2026-08-23T07:44:24.987Z",
+      "officialPageUrl": "https://m.douyin.com/app_download",
+      "sourceUrl": "https://p3-chhogri-sign.byteimg.com/tos-cn-i-798qopiu6e/ug_seo/download_page/57d9f3dd7e3a6b420dec8329ce24a9df_0~tplv-798qopiu6e-image.jpeg?rk3s=bf38534b&x-expires=1787537182&x-signature=VPLnr6imkAtBcMNauq%2BMhJ6rKU0%3D",
+      "discovery": "official-preferred-page-logo",
+      "localPath": "/external-brands/assets/douyin.jpg",
+      "mimeType": "image/jpeg",
+      "width": 512,
+      "height": 512,
+      "byteLength": 17506,
+      "sha256": "97b6cdac3ac5855a6a465294ee60a251cb42a17d453513f57fe6e2fb8b0c904a",
+      "retrievedAt": "2026-08-23T08:47:39.161Z",
       "projectPreviewApproved": true,
       "redistribution": false
     },
@@ -144,7 +144,7 @@ export const externalBrandAssetManifest = {
     },
     "xiaohongshu": {
       "status": "official-source",
-      "officialPageUrl": "https://www.xiaohongshu.com/",
+      "officialPageUrl": "https://oia.xiaohongshu.com/oia",
       "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/f43dc4a8baf03678996c62d8db6ebc01a82256ff.png",
       "discovery": "official-page-icon",
       "localPath": "/external-brands/assets/xiaohongshu.png",
@@ -153,7 +153,7 @@ export const externalBrandAssetManifest = {
       "height": 180,
       "byteLength": 2482,
       "sha256": "2912c4df1ab479d734ef132e9c45b4f17afa80b2aa3eaf4438acd54afc70b20a",
-      "retrievedAt": "2026-08-23T07:44:24.987Z",
+      "retrievedAt": "2026-08-23T08:47:39.161Z",
       "projectPreviewApproved": true,
       "redistribution": false
     },
@@ -204,16 +204,16 @@ export const externalBrandAssetManifest = {
     },
     "dianping": {
       "status": "official-source",
-      "officialPageUrl": "https://www.meituan.com/media?0a30c1d9=dog",
-      "sourceUrl": "https://s3plus.meituan.net/v1/mss_e2821d7f0cfe4ac1bf9202ecf9590e67/cdn-prod/file:1040877d/favicon-mt.ico",
-      "discovery": "official-page-icon",
-      "localPath": "/external-brands/assets/dianping.ico",
-      "mimeType": "image/x-icon",
-      "width": 48,
-      "height": 48,
-      "byteLength": 15086,
-      "sha256": "a6f4dd99edf8c49563be4c90ed0b509adb6b890d1a3c35caaa6d799a21c022de",
-      "retrievedAt": "2026-08-23T07:44:24.987Z",
+      "officialPageUrl": "https://m.dianping.com/newsem/pages/main.html",
+      "sourceUrl": "https://www.dpfile.com/app/com.sankuai.iwannaeat.newsem/client/media/logo.fdb9ce38.png",
+      "discovery": "official-source-override",
+      "localPath": "/external-brands/assets/dianping.png",
+      "mimeType": "image/png",
+      "width": 80,
+      "height": 80,
+      "byteLength": 3906,
+      "sha256": "e09e38a625fe39efe19fd519822cc2417e39500259f357563538a8ff3facd1a5",
+      "retrievedAt": "2026-08-23T08:47:39.161Z",
       "projectPreviewApproved": true,
       "redistribution": false
     },
@@ -476,16 +476,16 @@ export const externalBrandAssetManifest = {
     },
     "douyin-pay": {
       "status": "official-source",
-      "officialPageUrl": "https://www.douyin.com/",
-      "sourceUrl": "https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico",
-      "discovery": "official-origin-favicon",
-      "localPath": "/external-brands/assets/douyin.ico",
-      "mimeType": "image/x-icon",
-      "width": 32,
-      "height": 32,
-      "byteLength": 4286,
-      "sha256": "e67348e3ab54fa207e1ce4be78e8399d1b73a794d819a17d8656ea2b17a1109d",
-      "retrievedAt": "2026-08-23T07:44:24.987Z",
+      "officialPageUrl": "https://m.douyin.com/app_download",
+      "sourceUrl": "https://p3-chhogri-sign.byteimg.com/tos-cn-i-798qopiu6e/ug_seo/download_page/57d9f3dd7e3a6b420dec8329ce24a9df_0~tplv-798qopiu6e-image.jpeg?rk3s=bf38534b&x-expires=1787537182&x-signature=VPLnr6imkAtBcMNauq%2BMhJ6rKU0%3D",
+      "discovery": "official-preferred-page-logo",
+      "localPath": "/external-brands/assets/douyin.jpg",
+      "mimeType": "image/jpeg",
+      "width": 512,
+      "height": 512,
+      "byteLength": 17506,
+      "sha256": "97b6cdac3ac5855a6a465294ee60a251cb42a17d453513f57fe6e2fb8b0c904a",
+      "retrievedAt": "2026-08-23T08:47:39.161Z",
       "projectPreviewApproved": true,
       "redistribution": false,
       "scope": "parent-brand",
