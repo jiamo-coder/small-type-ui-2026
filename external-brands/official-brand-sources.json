@@ -1,0 +1,64 @@
+{
+  "standard": "small-type-ui-2026",
+  "version": "1.0.0",
+  "policy": "Only HTTPS assets declared by an official website or official brand-material page may be listed here.",
+  "overrides": {
+    "unionpay": {
+      "pages": ["https://open.unionpay.com/tjweb/open/index"],
+      "assets": ["https://open.unionpay.com/tjweb/resources/images/new/nav/logo_on.png?v=20260729193612"]
+    },
+    "cloud-quickpass": {
+      "pages": ["https://cn.unionpay.com/upowhtml/cn/templates/quickPass/quickPass.html"],
+      "assets": ["https://cn.unionpay.com/upowhtml/cn/templates/material/a5817a4b821640e5a850c5b9da5687c7/1667786236652.png"]
+    },
+    "jd-pay": {
+      "reuseBrandAsset": "jd",
+      "scope": "parent-brand"
+    },
+    "douyin-pay": {
+      "reuseBrandAsset": "douyin",
+      "scope": "parent-brand"
+    },
+    "tmall": {
+      "assets": ["https://img.alicdn.com/tfs/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png"]
+    },
+    "taobao-flash": {
+      "pages": ["https://www.ele.me/"],
+      "assets": ["https://img.alicdn.com/imgextra/i1/O1CN019s188k1t2biV9Wpa6_!!6000000005844-2-tps-96-96.png"]
+    },
+    "pinduoduo": {
+      "assets": ["https://www.pinduoduo.com/favicon.png"]
+    },
+    "cib": {
+      "pages": ["https://www.cib.com.cn/cn/CibHeader-2023.js"],
+      "assets": ["https://www.cib.com.cn/cn/customer/homepage/QRcode/logo01.png"]
+    },
+    "pingan-bank": {
+      "assets": ["https://resources.pingan.com/app_inc/bank/v2023/images/PClogo_bank.svg"]
+    },
+    "ccb": {
+      "pages": ["https://group2.ccb.com/chn/ccbtoday/indexv3.shtml"],
+      "assets": ["https://group2.ccb.com/chn/imageDir/siteIcon.ico"]
+    },
+    "bocom": {
+      "pages": ["https://www.bankcomm.com/BankCommSite/index.shtml"],
+      "assets": ["https://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/images/logo_img_1004.png"]
+    },
+    "spdb": {
+      "pages": ["https://download.spdb.com.cn/wap/index.html"],
+      "assets": ["https://download.spdb.com.cn/wap/zh_CN/imgs/common/banklogo.gif"]
+    },
+    "ceb": {
+      "pages": ["https://www.cebbank.com/site/dzyx/index.html"],
+      "assets": ["https://www.cebbank.com/static/cebbank/images/pic/bank_logo.jpg"]
+    },
+    "hxb": {
+      "pages": ["https://wap.hxb.com.cn/jrhx/gywm/"],
+      "assets": ["https://wap.hxb.com.cn/statics/hxb.ico"]
+    },
+    "bank-of-beijing": {
+      "pages": ["https://m.bankofbeijing.com.cn/"],
+      "assets": ["https://m.bankofbeijing.com.cn/favicon.ico"]
+    }
+  }
+}
