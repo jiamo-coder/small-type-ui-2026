@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.0.6
+// Version: 2.0.7
 export const commonIconViewBox = '0 0 24 24' as const;
 export const commonIconStrokeWidth = 1.75 as const;
 export const commonIcons = {
@@ -412,6 +412,102 @@ export const commonIcons = {
     "category": "business",
     "categoryLabel": "业务与对象",
     "path": "M9.5 14.5 8 16a3.5 3.5 0 1 1-5-5l3-3a3.5 3.5 0 0 1 5 0M14.5 9.5 16 8a3.5 3.5 0 1 1 5 5l-3 3a3.5 3.5 0 0 1-5 0M8.5 15.5l7-7"
+  },
+  "channel": {
+    "label": "渠道",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 5h6v6H4zM14 5h6v6h-6zM4 15h6v4H4zM14 15h6v4h-6M10 8h4M7 11v4M17 11v4"
+  },
+  "social": {
+    "label": "社交",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 5.5h11v9H9l-5 4zM9 10h.01M12 10h.01M15 8.5h5v8h-3l-3 2v-4"
+  },
+  "content": {
+    "label": "内容",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M5 3.5h14v17H5zM8 7h8M8 11h8M8 15h5"
+  },
+  "short-video": {
+    "label": "短视频",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 5h12v14H4zM16 9l4-2v10l-4-2zM9 9l4 3-4 3z"
+  },
+  "live": {
+    "label": "直播",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M8 8.5a5 5 0 0 0 0 7M5 5.5a9 9 0 0 0 0 13M16 8.5a5 5 0 0 1 0 7M19 5.5a9 9 0 0 1 0 13M12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"
+  },
+  "marketplace": {
+    "label": "电商平台",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 9.5 5.5 4h13L20 9.5M4 9.5a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0V20H4zM9 20v-6h6v6"
+  },
+  "instant-retail": {
+    "label": "即时零售",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M6 7h13l-1.5 7H8L6 4H3M9 18.5h.01M16.5 18.5h.01M13 7l-2 4h3l-2 3"
+  },
+  "review": {
+    "label": "评价",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 4.5h16v12H9l-5 4zM12 7.5l1.2 2.4 2.7.4-2 1.9.5 2.7-2.4-1.3-2.4 1.3.5-2.7-2-1.9 2.7-.4z"
+  },
+  "payment": {
+    "label": "支付",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M3.5 6h17v12h-17zM3.5 10h17M7 15h3M16.5 14.5h.01"
+  },
+  "bank": {
+    "label": "银行",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M3 9h18L12 3zM5 9v9M9.5 9v9M14.5 9v9M19 9v9M3 21h18"
+  },
+  "bank-card": {
+    "label": "银行卡",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M3.5 6h17v12h-17zM3.5 10h17M7 14h5M7 16h3"
+  },
+  "wallet": {
+    "label": "钱包",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 6.5h14.5A1.5 1.5 0 0 1 20 8v10H4zM4 6.5 7 4h10v2.5M15 11.5h5v4h-5a2 2 0 1 1 0-4Z"
+  },
+  "delivery": {
+    "label": "配送",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M3 6h11v10H3zM14 9h4l3 3v4h-7zM7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+  },
+  "logistics": {
+    "label": "物流",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 7 12 3l8 4-8 4zM4 7v10l8 4 8-4V7M12 11v10M8 5l8 4"
+  },
+  "mini-program": {
+    "label": "小程序",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M8.5 6.5 5 10l3.5 3.5M15.5 6.5 19 10l-3.5 3.5M10 18h4M9 3h6M12 3v15"
+  },
+  "qr-code": {
+    "label": "二维码",
+    "category": "ecosystem",
+    "categoryLabel": "生态与渠道",
+    "path": "M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v4h-2zM14 18h4v2h-4zM7 7h.01M17 7h.01M7 17h.01"
   }
 } as const;
 export type CommonIconName = keyof typeof commonIcons;
