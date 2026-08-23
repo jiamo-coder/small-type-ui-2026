@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.0.9",
+    "version": "2.0.10",
     "updated": "2026-08-23"
   },
   "channel": "stable",
@@ -11,19 +11,19 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "aa72a19b86631470b5d6fcc0a436eb077975d23060a31eeedf4fff0f85631e36"
+      "sha256": "c3638b87ba1f0813af48f5817996aa038f24cffe2ae1398d185a5412d580cd53"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "bf5f17fd74240c85396e4f1b50c0980c060d3fbca1721c43a77d2ca2f504a339"
+      "sha256": "0c18b760ca62c41f0f3c00e6ed0e59d3b3d1fc4a5f8a8c218ba231aa44466931"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "f6559834a6e598e771daad73f86c435e445776b3f6137c1b3beb1e67f6ec7f6f"
+      "sha256": "96e499d1e4f04377edec36df977d56c8c0e210f668f0ca947463f9d38d94c6b9"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "3f4e7cee70894f4215e77f1a9089cf033aa91764e5b8d730b528779eb24dd58f"
+      "sha256": "ce54ccdb3354e911d99cb319bbfc5a34107b615f6bca1aa978ec1ef796dcee02"
     },
     "icons": {
       "xiaoputao": {
@@ -74,7 +74,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
-        "sha256": "4ebf7d589861c8cdce7a224743a6ce549a3f0fefd4cdcf088c37850deb3320f4"
+        "sha256": "069c5f5e5a9f06fb808c8ea91c39edf2987c7a4b49c14a5b616138b8d3132682"
       }
     },
     "externalBrands": {
@@ -84,28 +84,28 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brands.ts",
-        "sha256": "678b3ab92bbcde0c69e303dfaa52ce049e5cfbcdb4452dcc2a44403eb2af3d15"
+        "sha256": "c4bf240801cf8eda0dd95b07921e9abc373897bc082a15a6398610a28e81be13"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.json",
-        "sha256": "d0c0912f97a65045c087c3a095c3094949b2321e6fdc6f8731936a59f0fbff86"
+        "sha256": "8070991cae61de7fe350a927690c75b60dd43e1c6bbdb7e7bd2d6f8fb28033ef"
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.ts",
-        "sha256": "0e3ea32b23cb87e17480dffb8226d59d9af2d3d7fd0f5ae9bca6ff8b9f5873a3"
+        "sha256": "2f711ff5ab194eb4b9ad230bcce716f984cbd35478fa1b21451b4515ce2237b6"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/official-brand-sources.json",
-        "sha256": "aa3d876b573aabe37ca418d4e613e5aca78d0db2a90909d23b986bbc60dac9a3"
+        "sha256": "6d39723a88499c9fa431f82a7d9feefd948b029faf9a8545cb576c132901fdb2"
       }
     },
     "package": {
       "url": "https://store-health-ops-cn.evans-jm3.chatgpt.site/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "245d01a6bf4f7c95abbc26d3c3298d91fb91353aec98699ff3fd850a86e4e966"
+      "sha256": "dae0b5e0efea3047ca8bbe89baac121d4a36dc8777efb969f9ad1d20b3441ee1"
     }
   },
   "compatibility": {
-    "minimumBootstrapVersion": "2.0.9",
+    "minimumBootstrapVersion": "2.0.10",
     "remoteContentPolicy": "reference-data-only"
   }
 }
