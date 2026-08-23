@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.1.0
+// Version: 2.1.1
 export type ExternalBrandAssetStatus = 'official-source' | 'fallback';
 export type ExternalBrandAsset = {
   status: ExternalBrandAssetStatus;
