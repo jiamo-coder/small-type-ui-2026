@@ -1,12 +1,12 @@
 {
   "standard": "small-type-ui-2026",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "count": 59,
   "lastVerifiedAt": "2026-08-23",
   "verificationMaxAgeDays": 180,
   "policy": {
-    "default": "neutral-category-icon-with-brand-text",
-    "officialAssetRule": "Only verified assets with explicit public-preview rights may render on the public specification site.",
+    "default": "official-source-logo-for-project-preview-with-neutral-fallback",
+    "officialAssetRule": "Project-approved public previews may render locally hosted copies obtained only from official sites or official brand-material pages; source verification and rights-holder permission remain separate statuses.",
     "redistribution": false,
     "trademarkNotice": "第三方商标归各权利人所有；本登记不暗示合作、认证或背书。"
   },
