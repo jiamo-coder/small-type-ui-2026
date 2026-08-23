@@ -1,8 +1,24 @@
 {
   "standard": "small-type-ui-2026",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "policy": "Only HTTPS assets declared by an official website or official brand-material page may be listed here.",
   "overrides": {
+    "dianping": {
+      "pages": ["https://m.dianping.com/newsem/pages/main.html"],
+      "assets": ["https://www.dpfile.com/app/com.sankuai.iwannaeat.newsem/client/media/logo.fdb9ce38.png"],
+      "minimumDimensions": { "width": 64, "height": 64 },
+      "mustDifferFrom": ["meituan"]
+    },
+    "douyin": {
+      "pages": ["https://m.douyin.com/app_download"],
+      "preferredImageAlt": "抖音logo",
+      "minimumDimensions": { "width": 128, "height": 128 }
+    },
+    "xiaohongshu": {
+      "pages": ["https://oia.xiaohongshu.com/oia"],
+      "assets": ["https://picasso-static.xiaohongshu.com/fe-platform/209095b1bd0330f15e7cdf22e54ff8377971b917.png"],
+      "minimumDimensions": { "width": 128, "height": 128 }
+    },
     "alipay": {
       "pages": ["https://render.alipay.com/p/c/18hmvaq6e08w"],
       "assets": ["https://t.alipayobjects.com/images/rmsweb/T1mQxhXbRXXXXXXXXX.png"]
