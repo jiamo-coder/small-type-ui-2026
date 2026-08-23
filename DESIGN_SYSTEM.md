@@ -3,7 +3,7 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.0.8
+Version: 2.0.9
 ```
 
 面向企业后台、移动任务 App、信息可视化和数据报表的紧凑型产品设计规范。目标不是单纯缩小字号，而是用稳定层级、清晰网格和受控语义色，在有限空间内提高判断与操作效率。
