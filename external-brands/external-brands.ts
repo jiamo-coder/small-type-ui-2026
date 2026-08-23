@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.0.7
+// Version: 2.0.8
 export type CommonIconName = 'home' | 'dashboard' | 'grid' | 'menu' | 'search' | 'filter' | 'back' | 'forward' | 'chevron-down' | 'expand' | 'collapse' | 'close' | 'add' | 'edit' | 'delete' | 'copy' | 'save' | 'download' | 'upload' | 'refresh' | 'share' | 'export' | 'import' | 'print' | 'more' | 'settings' | 'sort' | 'drag' | 'info' | 'success' | 'warning' | 'danger' | 'help' | 'pending' | 'loading' | 'lock' | 'unlock' | 'visible' | 'hidden' | 'disabled' | 'chart-line' | 'chart-bar' | 'chart-pie' | 'table' | 'trend-up' | 'trend-down' | 'report' | 'database' | 'sync' | 'compare' | 'calendar' | 'clock' | 'target' | 'funnel' | 'user' | 'users' | 'role' | 'department' | 'store' | 'location' | 'task' | 'bell' | 'message' | 'phone' | 'file' | 'folder' | 'attachment' | 'link' | 'channel' | 'social' | 'content' | 'short-video' | 'live' | 'marketplace' | 'instant-retail' | 'review' | 'payment' | 'bank' | 'bank-card' | 'wallet' | 'delivery' | 'logistics' | 'mini-program' | 'qr-code';
 export type ExternalBrandStatus = 'verified' | 'partner-only' | 'pending-authorization' | 'stale';
 export type ExternalBrand = {
@@ -22,13 +22,13 @@ export type ExternalBrand = {
 
 export const externalBrandCatalog = {
   "standard": "small-type-ui-2026",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "count": 59,
   "lastVerifiedAt": "2026-08-23",
   "verificationMaxAgeDays": 180,
   "policy": {
-    "default": "neutral-category-icon-with-brand-text",
-    "officialAssetRule": "Only verified assets with explicit public-preview rights may render on the public specification site.",
+    "default": "official-source-logo-for-project-preview-with-neutral-fallback",
+    "officialAssetRule": "Project-approved public previews may render locally hosted copies obtained only from official sites or official brand-material pages; source verification and rights-holder permission remain separate statuses.",
     "redistribution": false,
     "trademarkNotice": "第三方商标归各权利人所有；本登记不暗示合作、认证或背书。"
   },
