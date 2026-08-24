@@ -1,8 +1,8 @@
 {
   "standard": "small-type-ui-2026",
-  "version": "1.1.0",
-  "count": 59,
-  "lastVerifiedAt": "2026-08-23",
+  "version": "1.2.0",
+  "count": 61,
+  "lastVerifiedAt": "2026-08-24",
   "verificationMaxAgeDays": 180,
   "policy": {
     "default": "official-source-logo-for-project-preview-with-neutral-fallback",
@@ -11,6 +11,7 @@
     "trademarkNotice": "第三方商标归各权利人所有；本登记不暗示合作、认证或背书。"
   },
   "categories": [
+    { "id": "enterprise-service", "label": "企业服务" },
     { "id": "social-content", "label": "社交与内容" },
     { "id": "commerce-local", "label": "电商与本地生活" },
     { "id": "payment", "label": "支付渠道" },
@@ -18,6 +19,9 @@
     { "id": "bank", "label": "银行" }
   ],
   "brands": [
+    { "id": "feishu", "label": "飞书", "englishLabel": "Feishu", "aliases": ["飞书办公", "飞书协作", "Lark"], "category": "enterprise-service", "owner": "北京飞书科技有限公司", "officialUrl": "https://www.feishu.cn/", "assetSourceUrl": "https://www.feishu.cn/", "status": "pending-authorization", "variants": ["symbol"], "display": { "light": true, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。" }, "lastVerifiedAt": "2026-08-24" },
+    { "id": "qmai", "label": "企迈", "englishLabel": "Qmai", "aliases": ["企迈科技", "企迈数店", "企迈鸿图"], "category": "enterprise-service", "owner": "企迈科技有限公司", "officialUrl": "https://www.qmai.com/", "assetSourceUrl": "https://www.qmai.com/", "status": "pending-authorization", "variants": ["symbol", "wordmark"], "display": { "light": true, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "channel" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。" }, "lastVerifiedAt": "2026-08-24" },
+
     { "id": "wechat", "label": "微信", "englishLabel": "WeChat", "aliases": ["微信客户端"], "category": "social-content", "owner": "腾讯", "officialUrl": "https://weixin.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
     { "id": "wecom", "label": "企业微信", "englishLabel": "WeCom", "aliases": ["企业微信客户端"], "category": "social-content", "owner": "腾讯", "officialUrl": "https://work.weixin.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
     { "id": "qq", "label": "QQ", "englishLabel": "QQ", "aliases": ["腾讯QQ"], "category": "social-content", "owner": "腾讯", "officialUrl": "https://im.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
