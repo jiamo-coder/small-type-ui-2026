@@ -3,8 +3,13 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.1.1
+Version: 2.1.2
 ```
+
+## 2.1.2 — 2026-08-24
+
+- 正式预览、规范页面与共享包下载地址切换到 `https://smalltypeui.qiaokiai.com`。
+- 停止使用旧 `chatgpt.site` 公开链接；动态 Skill 的固定 GitHub 更新地址和调用名保持不变。
 
 ## 2.1.1 — 2026-08-24
 
