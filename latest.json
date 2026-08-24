@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "updated": "2026-08-24"
   },
   "channel": "stable",
@@ -11,19 +11,19 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "8d1d2d3f633d73fcc79ab07723afffad5e1c3e0fa8f7aa19c06205fd51b1a570"
+      "sha256": "2dbb0b497a007464e07a0fcb1a2e145ed868680c269758a1d9e1fd49aa2ce5d1"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "2055903afc5a0e6d6335fd3805aeb712f2c2ef3f53de66f6fcbc7f16034eb6e9"
+      "sha256": "569c0f96cc66a069f09eb88f935b956887a0eb1d514faf8a755e86285b50c903"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "6dcc9f6b7f184b91134919140ed384f058331a56bec47f73de4f37f5474d400e"
+      "sha256": "4be4bdefdf35f180e2b38f7befbf7d3aa9c29853bbca610dd2950817aecd6c7e"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "7f0f80ce4e7c1a83c612cb094c86bc3d21c6f5abb46749f351759f4781c53dc2"
+      "sha256": "0fa4c1952a960d90e8279e2b76cefa8c1c85a38c95a9736a194e1deb35e0c3e0"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -82,7 +82,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
-        "sha256": "316320c3f8aafce6290aa25eecbe5596cd9b514d602ee2a51c9f50cd86769409"
+        "sha256": "c0446232625c95128efb28b8275446216b712cc5c87d30798681a5494e9db438"
       }
     },
     "externalBrands": {
@@ -92,7 +92,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brands.ts",
-        "sha256": "6890590353a734c528b14b921ca6c5a89ad49521d4eaeec562ff68ad76b34289"
+        "sha256": "ca6c7c305eb6af8f634fa475171fe7b7f81191809dbd686ef4057dd92919fece"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.json",
@@ -100,7 +100,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.ts",
-        "sha256": "21acbfb27f41bfdcb2ffae12bb1063420428c0483e7ea74ab8ea6554febb7c77"
+        "sha256": "0bcc281c60d2713940580229a0c92c2403b651240698ee81ae762a4928299984"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/official-brand-sources.json",
@@ -108,8 +108,8 @@
       }
     },
     "package": {
-      "url": "https://store-health-ops-cn.evans-jm3.chatgpt.site/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "388a469780012d9b313aaa0bc88241ef271df069ce32b11abea7c37f6eccb444"
+      "url": "https://smalltypeui.qiaokiai.com/downloads/2026-small-type-ui-2.0.zip",
+      "sha256": "98cc651abf1957bf477918223a6236ec3281e657fe2d825b57328f63c3cb5580"
     }
   },
   "compatibility": {
