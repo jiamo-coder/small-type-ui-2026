@@ -1,8 +1,17 @@
 {
   "standard": "small-type-ui-2026",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "policy": "Only HTTPS assets declared by an official website or official brand-material page may be listed here.",
   "overrides": {
+    "feishu": {
+      "pages": ["https://www.feishu.cn/"],
+      "assets": ["https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:100:100.image"],
+      "minimumDimensions": { "width": 96, "height": 96 }
+    },
+    "qmai": {
+      "pages": ["https://www.qmai.com/"],
+      "assets": ["https://www.qmai.com/favicon.ico"]
+    },
     "dianping": {
       "pages": ["https://m.dianping.com/newsem/pages/main.html"],
       "assets": ["https://www.dpfile.com/app/com.sankuai.iwannaeat.newsem/client/media/logo.fdb9ce38.png"],
