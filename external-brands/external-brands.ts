@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.1.2
+// Version: 2.1.3
 export type CommonIconName = 'home' | 'dashboard' | 'grid' | 'menu' | 'search' | 'filter' | 'back' | 'forward' | 'chevron-down' | 'expand' | 'collapse' | 'close' | 'add' | 'edit' | 'delete' | 'copy' | 'save' | 'download' | 'upload' | 'refresh' | 'share' | 'export' | 'import' | 'print' | 'more' | 'settings' | 'sort' | 'drag' | 'info' | 'success' | 'warning' | 'danger' | 'help' | 'pending' | 'loading' | 'lock' | 'unlock' | 'visible' | 'hidden' | 'disabled' | 'chart-line' | 'chart-bar' | 'chart-pie' | 'table' | 'trend-up' | 'trend-down' | 'report' | 'database' | 'sync' | 'compare' | 'calendar' | 'clock' | 'target' | 'funnel' | 'user' | 'users' | 'role' | 'department' | 'store' | 'location' | 'task' | 'bell' | 'message' | 'phone' | 'file' | 'folder' | 'attachment' | 'link' | 'channel' | 'social' | 'content' | 'short-video' | 'live' | 'marketplace' | 'instant-retail' | 'review' | 'payment' | 'bank' | 'bank-card' | 'wallet' | 'delivery' | 'logistics' | 'mini-program' | 'qr-code';
 export type ExternalBrandStatus = 'verified' | 'partner-only' | 'pending-authorization' | 'stale';
 export type ExternalBrand = {
@@ -22,9 +22,9 @@ export type ExternalBrand = {
 
 export const externalBrandCatalog = {
   "standard": "small-type-ui-2026",
-  "version": "1.1.0",
-  "count": 59,
-  "lastVerifiedAt": "2026-08-23",
+  "version": "1.2.0",
+  "count": 61,
+  "lastVerifiedAt": "2026-08-24",
   "verificationMaxAgeDays": 180,
   "policy": {
     "default": "official-source-logo-for-project-preview-with-neutral-fallback",
@@ -33,6 +33,10 @@ export const externalBrandCatalog = {
     "trademarkNotice": "第三方商标归各权利人所有；本登记不暗示合作、认证或背书。"
   },
   "categories": [
+    {
+      "id": "enterprise-service",
+      "label": "企业服务"
+    },
     {
       "id": "social-content",
       "label": "社交与内容"
@@ -55,6 +59,71 @@ export const externalBrandCatalog = {
     }
   ],
   "brands": [
+    {
+      "id": "feishu",
+      "label": "飞书",
+      "englishLabel": "Feishu",
+      "aliases": [
+        "飞书办公",
+        "飞书协作",
+        "Lark"
+      ],
+      "category": "enterprise-service",
+      "owner": "北京飞书科技有限公司",
+      "officialUrl": "https://www.feishu.cn/",
+      "assetSourceUrl": "https://www.feishu.cn/",
+      "status": "pending-authorization",
+      "variants": [
+        "symbol"
+      ],
+      "display": {
+        "light": true,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "social"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。"
+      },
+      "lastVerifiedAt": "2026-08-24"
+    },
+    {
+      "id": "qmai",
+      "label": "企迈",
+      "englishLabel": "Qmai",
+      "aliases": [
+        "企迈科技",
+        "企迈数店",
+        "企迈鸿图"
+      ],
+      "category": "enterprise-service",
+      "owner": "企迈科技有限公司",
+      "officialUrl": "https://www.qmai.com/",
+      "assetSourceUrl": "https://www.qmai.com/",
+      "status": "pending-authorization",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": true,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "channel"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。"
+      },
+      "lastVerifiedAt": "2026-08-24"
+    },
     {
       "id": "wechat",
       "label": "微信",
