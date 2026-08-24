@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.1.2
+// Version: 2.1.3
 export type ExternalBrandAssetStatus = 'official-source' | 'fallback';
 export type ExternalBrandAsset = {
   status: ExternalBrandAssetStatus;
@@ -23,10 +23,10 @@ export type ExternalBrandAsset = {
 
 export const externalBrandAssetManifest = {
   "standard": "small-type-ui-2026",
-  "version": "1.1.0",
-  "generatedAt": "2026-08-23T08:47:39.161Z",
-  "count": 59,
-  "officialSourceCount": 59,
+  "version": "1.2.0",
+  "generatedAt": "2026-08-24T04:50:13.767Z",
+  "count": 61,
+  "officialSourceCount": 61,
   "fallbackCount": 0,
   "policy": {
     "source": "official-site-or-official-brand-material-page-only",
@@ -919,6 +919,36 @@ export const externalBrandAssetManifest = {
       "byteLength": 1150,
       "sha256": "39a631568833885457e48c05af3b9f5eaad87a63c0181f8c38d99d13bfa844f9",
       "retrievedAt": "2026-08-23T07:44:24.987Z",
+      "projectPreviewApproved": true,
+      "redistribution": false
+    },
+    "feishu": {
+      "status": "official-source",
+      "officialPageUrl": "https://www.feishu.cn/",
+      "sourceUrl": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:100:100.image",
+      "discovery": "official-source-override",
+      "localPath": "/external-brands/assets/feishu.png",
+      "mimeType": "image/png",
+      "width": 100,
+      "height": 100,
+      "byteLength": 6232,
+      "sha256": "a8b56475a902623937409d0fdc68b4b91040aa6ce34cd71e7870acf0cc8a62d9",
+      "retrievedAt": "2026-08-24T04:50:13.767Z",
+      "projectPreviewApproved": true,
+      "redistribution": false
+    },
+    "qmai": {
+      "status": "official-source",
+      "officialPageUrl": "https://www.qmai.com/",
+      "sourceUrl": "https://www.qmai.com/favicon.ico",
+      "discovery": "official-origin-favicon",
+      "localPath": "/external-brands/assets/qmai.png",
+      "mimeType": "image/png",
+      "width": 32,
+      "height": 32,
+      "byteLength": 762,
+      "sha256": "5a5a703b9e0e701d22c58c50b23a746e6ab6b0996418b5be28cbc575a225a6bf",
+      "retrievedAt": "2026-08-24T04:50:13.767Z",
       "projectPreviewApproved": true,
       "redistribution": false
     }
