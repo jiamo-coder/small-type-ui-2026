@@ -3,7 +3,7 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.3.0
+Version: 2.4.0
 ```
 
 ## 研究范围
