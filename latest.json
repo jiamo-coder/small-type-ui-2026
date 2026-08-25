@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.2.1",
+    "version": "2.3.0",
     "updated": "2026-08-25"
   },
   "channel": "stable",
@@ -11,19 +11,19 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "2c4e9277210b82e381059b28338b8e65722a277ecf0c8dcfc1e15ca341ace8df"
+      "sha256": "f2a84bf7238d64920b9aa4d7d5842a0cd6636af8b8db72295bcf95881a4f7c70"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "d0ee222484e23f80263ed8a7ae20e7f76ae04e8f80146d51cb1bc271266160ae"
+      "sha256": "9d9d41d99a3fa5b0e4a824c505c8cae9dabbc90ba4f24a07167e26e3a46aece6"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "bfba174dcc6514eedd653f8d68917f1eda01cee572c6ea72f54f5723f09c3e51"
+      "sha256": "c75cabd8872952396065c33454e896ece44a87bf875ad4651aa860b71c225cab"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "58e11512717c84b310c830e65b587ce04fbbd452ca313d458c5b7b6827533689"
+      "sha256": "338a015c04c839b90c91b7c5980c0a615701b8b08724f2a16e54b61a5cfb159b"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -33,9 +33,13 @@
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/UI_2_TYPOGRAPHY_AUDIT.md",
       "sha256": "c2b6bfd97a1eff2432240ee22acb2a2c2365a3fdf6723fb2faf3929fb4177991"
     },
+    "mobileResearch": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/MOBILE_RESEARCH_2026.md",
+      "sha256": "7a7fc5d48d93828dc1e592af42d4f2e57f5b83b1fc9425888c7b0031b9f76a2c"
+    },
     "tabletResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TABLET_RESEARCH_2026.md",
-      "sha256": "76185bb0edf6c830394e831903830e1ba1f58855233b728cf8a34df09848b512"
+      "sha256": "850c64653130c0887ded01831beaf71568747f3b3df9a8a6c285eb2523416dad"
     },
     "icons": {
       "xiaoputao": {
@@ -90,7 +94,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
-        "sha256": "35331b2c8a9d920f43e22cccd809234191c35397db1efb7ecf60c2ac2203a0f7"
+        "sha256": "a176ea85fed027a5a3ec41ed646d1a6f6c34f2e4fc3c98e4e99d63ed098216b3"
       }
     },
     "externalBrands": {
@@ -100,7 +104,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brands.ts",
-        "sha256": "6e005985bce202459018c76928eed5317edef2ee4fac84ac677a873c54f02f21"
+        "sha256": "f888a0ebcabc42390314577d2737c590ee9fb48ff378826dc814d949fd038a40"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.json",
@@ -108,7 +112,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.ts",
-        "sha256": "4fd1d2d7dac17d055d8bcf48f5c85c6abee347bb3a13f7ae3e2cb0ae471bf46a"
+        "sha256": "9a37a2501668c8c8f1f3138a9de9e3f16040275905618a3b431745d104532542"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/official-brand-sources.json",
@@ -117,7 +121,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "13ca3cb42a239118acbea79a55c126716ef9bcf0e5f01be911c0f096b9fc127f"
+      "sha256": "8a15c3fd9221825fb4c086ba015eaed52642d0f12e024c7dca02205b0785df48"
     }
   },
   "compatibility": {
