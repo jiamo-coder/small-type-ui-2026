@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.3.0
+// Version: 2.4.0
 export const commonIconViewBox = '0 0 24 24' as const;
 export const commonIconStrokeWidth = 1.75 as const;
 export const commonIcons = {
