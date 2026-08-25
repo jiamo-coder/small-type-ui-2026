@@ -3,8 +3,16 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.3.0
+Version: 2.4.0
 ```
+
+## 2.4.0 — 2026-08-25
+
+- 从小红花、小金矿、小点位、小太阳、小总管和小葫芦提炼 18 个跨业务通用模板，覆盖 Web、Mobile 和 Pad。
+- 新增 `template-patterns.json`、TypeScript 映射和模板研究文档，统一记录适用目标、必要数据、交互、响应式、真实状态、反例与验收标准。
+- 新增 `/templates` 交互模板馆；模板使用通用脱敏数据，并保留来源注记但不复制业务规则或产品代码。
+- 动态 Skill 增加模板选型与审计映射，`latest.json` 新增 `resources.templatePatterns` 和 `resources.templateResearch`。
+- 保持固定 Skill 地址、GitHub 动态清单地址、下载地址和审计—确认—实施边界不变。
 
 ## 2.3.0 — 2026-08-25
 
