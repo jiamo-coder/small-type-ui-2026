@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">小总管</title>
+  <rect width="64" height="64" rx="16" fill="#EDF5F8"/>
+  <path d="m32 11 15 6v14c0 10.2-6.2 17.2-15 21-8.8-3.8-15-10.8-15-21V17l15-6Z" fill="#356F89" stroke="#1F485D" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="32" cy="24" r="5" fill="#FFFFFF"/>
+  <path d="M23.5 39c1.7-5.4 4.6-8 8.5-8s6.8 2.6 8.5 8" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 42h16" fill="none" stroke="#B9D7E2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="24" cy="42" r="2.4" fill="#FFFFFF"/><circle cx="32" cy="42" r="2.4" fill="#FFFFFF"/><circle cx="40" cy="42" r="2.4" fill="#FFFFFF"/>
+  <path d="M25.5 18.5c2.5-1.5 5-2.2 7.5-2.1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".72"/>
+</svg>
