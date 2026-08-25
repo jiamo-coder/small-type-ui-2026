@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "updated": "2026-08-25"
   },
   "channel": "stable",
@@ -11,19 +11,19 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "4e69db73343bc10976ec130471b2b45c75de3a53ed1a242e545d8947c4a2fb9e"
+      "sha256": "2c4e9277210b82e381059b28338b8e65722a277ecf0c8dcfc1e15ca341ace8df"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "2ad4fe4623041b7a69e74d0f747d94111fd9136a6553a998ba532cc3d4b77c53"
+      "sha256": "d0ee222484e23f80263ed8a7ae20e7f76ae04e8f80146d51cb1bc271266160ae"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "21f4f653b80f16782ba66f36fc6b86c3db1a5eee9362936e8cd08f98a28af85f"
+      "sha256": "bfba174dcc6514eedd653f8d68917f1eda01cee572c6ea72f54f5723f09c3e51"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "9512ce762e93aa90f800efe8489af72fb81632c1714f07f9f751024ca3a05b75"
+      "sha256": "58e11512717c84b310c830e65b587ce04fbbd452ca313d458c5b7b6827533689"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -35,7 +35,7 @@
     },
     "tabletResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TABLET_RESEARCH_2026.md",
-      "sha256": "bd58fd55f34a01500b17b197517d402ac89b36052e8a3b42b51c0de165d6a560"
+      "sha256": "76185bb0edf6c830394e831903830e1ba1f58855233b728cf8a34df09848b512"
     },
     "icons": {
       "xiaoputao": {
@@ -73,6 +73,10 @@
       "suyuanli": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/suyuanli.svg",
         "sha256": "b062a7d74229eb85b505ffc0e4817738ad507587269627d563284e52a4e2f0e1"
+      },
+      "xiaozongguan": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaozongguan.svg",
+        "sha256": "76f9bb319d62d3f968f39dfc7a583ab85aee344a0acf6b22eaf5ed4b629e7539"
       }
     },
     "commonIcons": {
@@ -86,7 +90,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
-        "sha256": "b197c56c555beb439d93522436bdae2edff9b3df8cbd80370ddca9a69d8da6fa"
+        "sha256": "35331b2c8a9d920f43e22cccd809234191c35397db1efb7ecf60c2ac2203a0f7"
       }
     },
     "externalBrands": {
@@ -96,7 +100,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brands.ts",
-        "sha256": "954921fde90e563ca7f7eea374bdaae15ed8ec88578a713e9603431de4805ae1"
+        "sha256": "6e005985bce202459018c76928eed5317edef2ee4fac84ac677a873c54f02f21"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.json",
@@ -104,7 +108,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.ts",
-        "sha256": "8624662515bae49040eb0b6bff3fd742f3c4a4ac1f8483304e39ef56daf9d1c5"
+        "sha256": "4fd1d2d7dac17d055d8bcf48f5c85c6abee347bb3a13f7ae3e2cb0ae471bf46a"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/official-brand-sources.json",
@@ -113,7 +117,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "2af353cad75b434a1a5b10338879ae034992d7079c3628e831693c0b9c13bf74"
+      "sha256": "13ca3cb42a239118acbea79a55c126716ef9bcf0e5f01be911c0f096b9fc127f"
     }
   },
   "compatibility": {
