@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.5.1
+// Version: 2.5.2
 export type TemplatePlatform = 'web' | 'mobile' | 'tablet';
 export type TemplatePattern = {
   id: string;
@@ -21,9 +21,9 @@ export type TemplatePattern = {
 
 export const templatePatternCatalog = {
   "standard": "small-type-ui-2026",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "count": 19,
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "platforms": [
     "web",
     "mobile",
