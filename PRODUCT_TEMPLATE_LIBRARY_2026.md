@@ -3,7 +3,7 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.4.0
+Version: 2.5.1
 ```
 
 ## 研究目的
@@ -19,6 +19,7 @@ Version: 2.4.0
 3. 同一模板必须说明必要数据与失败状态，避免只有理想态截图。
 4. Web、Mobile、Pad 分别设计；响应式不是等比缩放。
 5. 来源系统的领域规则只留在来源系统，不能通过模板进入其他产品。
+6. 已有固定顶部和当前页面标识时，不重复展示页面介绍；模板首屏从状态、筛选、任务或简易可视化开始。
 
 ## 来源系统中的可复用经验
 
@@ -82,6 +83,7 @@ Version: 2.4.0
 - 台账同时承担主数据治理：`governed-entity-registry`。
 - 队列式风险或审批：`risk-queue-master-detail` 或 `tablet-approval-master-detail`。
 - 复杂现场录入：`tablet-offline-step-workbench` 或 `tablet-high-frequency-entry-console`。
+- 移动 AI 助手、智能体或对话工具：`mobile-conversational-agent-canvas`。
 
 不要因为来源系统相似就选择模板；以用户任务和必要数据为准。
 
@@ -91,6 +93,7 @@ Version: 2.4.0
 - 风险队列可以跳转证据复核，但两套工作台不在同一屏并排堆叠。
 - 对象 360° 可以引用成长路径或资源明细，但必须通过明确分区或下钻进入。
 - Mobile 只承接随时查看、快速处理和证据提交；复杂比较矩阵与大批量治理回到 Web 或 Pad。
+- 对话智能体以连续会话为主画布，低频目的地进入侧栏；过程默认折叠，但工作空间、来源、数据新鲜度和审批身份不得隐藏。
 - Pad 在窗口不足时优先收起支持区，不能缩小触控目标和正文。
 
 ## 审计输出要求
