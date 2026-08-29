@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.8.0",
+    "version": "2.9.0",
     "updated": "2026-08-30"
   },
   "channel": "stable",
@@ -11,23 +11,23 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "cbf86cf50e42a7b47ee1e5abe207168bfc94e2134a35fb7f5801c9ede91055c2"
+      "sha256": "8707b45f44c9ae1dedf4ad92c0c02fb0d6461b903229c66bc59b62104b09cb3c"
     },
     "webApplicationShell": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/WEB_APPLICATION_SHELL_2026.md",
-      "sha256": "a03bda796d0dfea5dff8589a265ec67b6cb9796ab7ca741403ccbcdbe454de8f"
+      "sha256": "3d65171c017ac4b7e0149120bf90e9f8b74a51d125a3d820c16e6ab6785d207f"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "279cb70635868c9ede9d167241c88f09a311da1dffeef8cefe056cdec39defb5"
+      "sha256": "1b72c549f1a6aa0ca1d1456bbc266b5c312c7a9f17ef732cc5055c071ee9781c"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "05b2556f799d7f3c0e032db425be1396528330d50732271eb10869670594047e"
+      "sha256": "11df2bfd9325f09629a2ea45180c4f624a7b8e73b2bb8d9b9160557136edcbb5"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "b73c4ef83422c9c1b2f8092ebf0b75d3ef88be5617e2dd836826239a69113717"
+      "sha256": "76291873a0f68a71ad466b9ae598aeeeb6fda49b3f14dbfab8b995c2b00c60bf"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -39,88 +39,768 @@
     },
     "mobileResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/MOBILE_RESEARCH_2026.md",
-      "sha256": "a6a17fa2d13850bce03a23b8ca9cdbf632df3facd84105c3774491c72fd43a56"
+      "sha256": "883de053149042ac366f57da9d318e896e2795b843188716a0119fe58d999422"
     },
     "conversationalAgentResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CONVERSATIONAL_AGENT_RESEARCH_2026.md",
-      "sha256": "2ff1ea4fec1a82135b294cec592783585e83c28ed4d30a08ac27b4b3d6167105"
+      "sha256": "07a3e83cebebd72475be55bbcda423ca00678b78c9fdd39bd1d4c2851dd68ea3"
     },
     "tabletResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TABLET_RESEARCH_2026.md",
-      "sha256": "88c2c88294745fecd3445d369a91b779e61944b44844f3e66cf531cbb8e598af"
+      "sha256": "972542cd86f474e096e84158019686c3efd3a62421cfe1bab32c0736cadbf2c7"
     },
     "templateResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/PRODUCT_TEMPLATE_LIBRARY_2026.md",
-      "sha256": "793aabf310322910f5e1c07071aba1956746d4f60850692b1993276c46a6256d"
+      "sha256": "ae4deb2adc5940cf5adbfdc7ecaf056c5febfecf0512ce6935dfd984aec02a13"
+    },
+    "productLogoFamily": {
+      "reference": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/PRODUCT_LOGO_FAMILY_2026.md",
+        "sha256": "3b04e6f45a131c698a8a53dcc93e548dc940ff5cc6c73927353113e2570d842b"
+      },
+      "registry": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/product-logo-family.json",
+        "sha256": "8808e51bb11b842c76579e1619d00c6f7a07fccd6e9b21a60df8fc0dda0d49f1"
+      },
+      "typescript": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/product-logo-family.ts",
+        "sha256": "74ba910ebe18ad8dc1921649fa6f98113bddbe489599a8ba4bb8bb67d8fa1a60"
+      },
+      "assets": {
+        "r01.symbols.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaoputao.svg",
+          "sha256": "4965886b1fa6623c2d873d6884eb02f4dc9075caeaee1f3651d57070c840cb82"
+        },
+        "r01.symbols.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaohonghua.svg",
+          "sha256": "a2d8bd0becad109876ee21c3e493ff0cd77932d8e39a26804648c418f19f2aaf"
+        },
+        "r01.symbols.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaosuanpan.svg",
+          "sha256": "4a98e8c1794e42c27dbb35573766feb1eeb9fb71d758416c63b405cdd339c81e"
+        },
+        "r01.symbols.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaojinkuang.svg",
+          "sha256": "f2499b11e31781ee2c27d94f6b71b386a4eea7c42418c14697d8fecf447b548f"
+        },
+        "r01.symbols.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaohulu.svg",
+          "sha256": "35ab1131b02d778836e395dc3b03cc7c2310ecd07cce3ba34c41230ac4b44c98"
+        },
+        "r01.symbols.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaozishu.svg",
+          "sha256": "4b03757fefb6ae22408599e1553af4fe8137dad687dbd989fd2f7651e1562d82"
+        },
+        "r01.symbols.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaotaiyang.svg",
+          "sha256": "938c5a4f7681b45cfbf518f557dcbfd54ca661d8186b07d1968a560746682f00"
+        },
+        "r01.symbols.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaodianwei.svg",
+          "sha256": "deaab649f10be6a958e5120fb5e1301357c0e0ab984d7d4ee3bd498381f27587"
+        },
+        "r01.symbols.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/yuanmaxiang.svg",
+          "sha256": "012bad6be4c058c1732f1c0cf5071ac5aed0bb1d907dfc1f605be9b7ee478545"
+        },
+        "r01.symbols.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/suyuanli.svg",
+          "sha256": "e0dd54c4858793834cc2872507924530d78d25adfe4ec3a95049683ea0abe7ea"
+        },
+        "r01.symbols.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/symbols/xiaozongguan.svg",
+          "sha256": "b00afdc17b9b1a953e7305390c2bd062d82d110578c3779158b9ac571b58fe19"
+        },
+        "r01.app-icons.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaoputao.svg",
+          "sha256": "744b6ff6597c32191da883f7af457ad9a0bbb989208b2f23e0a6a45b790909c9"
+        },
+        "r01.app-icons.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaohonghua.svg",
+          "sha256": "c9624ac173c33c7792540734921feb2c3945f393b2150507556599da7d669d57"
+        },
+        "r01.app-icons.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaosuanpan.svg",
+          "sha256": "9a7168f415503b68c048fead00052f88348077ce16c6ccaa712cb60a937966ca"
+        },
+        "r01.app-icons.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaojinkuang.svg",
+          "sha256": "8b1bbb36d9c569bffc2028823d6d95a9b19f3a5e48547be69d715819f243eece"
+        },
+        "r01.app-icons.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaohulu.svg",
+          "sha256": "9867b304a6736655a3de9600a66061a9726498b1e9d76e9e5854f3c586023a3c"
+        },
+        "r01.app-icons.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaozishu.svg",
+          "sha256": "df4842048d001da88230c98c8877e8cdfe45e531036a1eb17a8c65a554768e0b"
+        },
+        "r01.app-icons.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaotaiyang.svg",
+          "sha256": "410be48cd46e92ed468edd50cee1029d8f1486fd85aba7d6517054f171c142c7"
+        },
+        "r01.app-icons.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaodianwei.svg",
+          "sha256": "cd8aefb4664fdb6668df8d2cf18b5ed793969e360e867c124126308f6fcfc674"
+        },
+        "r01.app-icons.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/yuanmaxiang.svg",
+          "sha256": "601dcb5e2513bdc789ece457115ac528cb8035898b602479272b3460511383ab"
+        },
+        "r01.app-icons.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/suyuanli.svg",
+          "sha256": "ff67f626f366a849f29475826bd96569f0c17bbbc336166cd0ed027329ca4577"
+        },
+        "r01.app-icons.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/app-icons/xiaozongguan.svg",
+          "sha256": "f420d4e8937431e5858c5cdd1f42b665a545338927658fe3c212bbb9c8e289a4"
+        },
+        "r01.lockups.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaoputao-zh.svg",
+          "sha256": "ac24ade6de0f8cf2264bca867f47cff265be30d4e070f3e4b8239cfde5418f34"
+        },
+        "r01.lockups.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaohonghua-zh.svg",
+          "sha256": "0c23c1bf163c3596a2b6fc172e7d44d7dbb37befb413bb2861519fd39e209143"
+        },
+        "r01.lockups.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaosuanpan-zh.svg",
+          "sha256": "6e776453766bf3d0fde8cb578f4ad939ebcaa2e750f9669afd68d79dc91bc463"
+        },
+        "r01.lockups.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaojinkuang-zh.svg",
+          "sha256": "c821f80752abaccf5c926ebf7810ac040760e1fa91e0cf9d0fc8cf49db1cc1fa"
+        },
+        "r01.lockups.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaohulu-zh.svg",
+          "sha256": "fdddb9fab73ce8a489e32979f3ee409ef8341f56f77e3b17b73cc95db96f81b9"
+        },
+        "r01.lockups.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaozishu-zh.svg",
+          "sha256": "d7c330c0d5c09a87d5ff115fa8a8bd1ecd02c740b8b1d17d823a29a14b014920"
+        },
+        "r01.lockups.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaotaiyang-zh.svg",
+          "sha256": "283ad661f83111fc0f62b163fbffffe999c89df000520ce39d26acd09b311f16"
+        },
+        "r01.lockups.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaodianwei-zh.svg",
+          "sha256": "7234aef18affbb789507fb69be1ba792b3620bb82b082cd5112e7fc29afe49ac"
+        },
+        "r01.lockups.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/yuanmaxiang-zh.svg",
+          "sha256": "d670f6d06df54c8656c06dedf72a4989429c63676e1ea6c0edfdc3da1b9ae942"
+        },
+        "r01.lockups.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/suyuanli-zh.svg",
+          "sha256": "2f8c2f9d349eac42e8464b46505198c08c40c180eb6306772f2ce4106e8ef6dc"
+        },
+        "r01.lockups.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/lockups/xiaozongguan-zh.svg",
+          "sha256": "9d13de7069083a168b8753ec0d37161aed5a4f9af2ddc22305dda5ebef92bbb1"
+        },
+        "r01.mono-dark.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaoputao.svg",
+          "sha256": "c16e6a35a5a08195ea6f78479b5cf95469662d58f1e86630442df9812855a43c"
+        },
+        "r01.mono-dark.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaohonghua.svg",
+          "sha256": "270cc1fd9729c0b69bdb009f4e47e464436b7a59a0c17ced1a4c62d69b310ea9"
+        },
+        "r01.mono-dark.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaosuanpan.svg",
+          "sha256": "fa11766d4482da16c8d3b89a5297bcc677953cac6a417fb83b1d39bfca55c388"
+        },
+        "r01.mono-dark.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaojinkuang.svg",
+          "sha256": "d81e8e3eddff56c8dec0e0fd2f15e54116220389269e4ac5eb09b255937dc354"
+        },
+        "r01.mono-dark.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaohulu.svg",
+          "sha256": "723457e08a20b898f96dbe67afc77be0417d6ae457364ba3d1a3db2afa5c901c"
+        },
+        "r01.mono-dark.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaozishu.svg",
+          "sha256": "3693f58925f96c972859f4b2ae004067f1af2541138ccc901ef1cbdd2011f2bb"
+        },
+        "r01.mono-dark.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaotaiyang.svg",
+          "sha256": "03dbd40bb865a4cf5edb17d1c29d5e26efd9a23534abfbfe6801209dd3dad6e8"
+        },
+        "r01.mono-dark.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaodianwei.svg",
+          "sha256": "db70600ec4451b1515a63fea83c5b2c76f41e276be7bf8185fee59810db4a9e5"
+        },
+        "r01.mono-dark.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/yuanmaxiang.svg",
+          "sha256": "eabc1e07b12105f54cf9deb94a4527b1e556b9cfba43e4c7a8573842afc4b56f"
+        },
+        "r01.mono-dark.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/suyuanli.svg",
+          "sha256": "01480b5fc5765d78521cef022d404c4264e429372854e12a2e0e60fec35fab20"
+        },
+        "r01.mono-dark.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-dark/xiaozongguan.svg",
+          "sha256": "47a6f02a7b135f1d39be6ca97d652c7c15511ab6e84d9e09ef0a2a03f9a61e11"
+        },
+        "r01.mono-light.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaoputao.svg",
+          "sha256": "15fd7ea1f4cc5161b3f43c6c7084ed396ff5004be7b774eb4bd7abdd98d40cd5"
+        },
+        "r01.mono-light.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaohonghua.svg",
+          "sha256": "75873c460e09e0a2cb1689e7a2dc946a49e264dc7122915efe4b432f9c7dc0bd"
+        },
+        "r01.mono-light.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaosuanpan.svg",
+          "sha256": "1d1df5396fefb573faf7fd295a204591561bad81c24e52c16175e4626a01195d"
+        },
+        "r01.mono-light.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaojinkuang.svg",
+          "sha256": "d16f63b57a08f693d039ca12c4786d71f50d94de5e28c09f5ddaef4b5dc9cae1"
+        },
+        "r01.mono-light.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaohulu.svg",
+          "sha256": "6a419b703bbae41ef2345356b06fcaaf990ea02ab80e4076eefde857b842ddba"
+        },
+        "r01.mono-light.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaozishu.svg",
+          "sha256": "d1c23b6345c9bceeafc7fe269ae646e4bd4c843024f1a0662ac3ec08f5b08065"
+        },
+        "r01.mono-light.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaotaiyang.svg",
+          "sha256": "57f7af1f246f1cc2fe092df35953a65db0fc01833ca2c254a6cc2c342cf9942c"
+        },
+        "r01.mono-light.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaodianwei.svg",
+          "sha256": "d3cee292fb04333cbe4035c348bbe7c2672d7bf7de4250197a378126873a6fa5"
+        },
+        "r01.mono-light.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/yuanmaxiang.svg",
+          "sha256": "414b70585d2b58867c840d6f95c5fde81f46f1d9c128bb5878a8c01c6f848f35"
+        },
+        "r01.mono-light.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/suyuanli.svg",
+          "sha256": "b365277f0b898fcdf1a9d2f3dd1969e3f305907e8dde5f84c64692bff9732cfe"
+        },
+        "r01.mono-light.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r01/mono-light/xiaozongguan.svg",
+          "sha256": "b4854552b51ee1d9ca2f272779376a0fc9a60587d5214b10fdb49b4927ed398b"
+        },
+        "r02.symbols.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaoputao.svg",
+          "sha256": "754044a3b4dea25b86790dbf8c7e52184ee5098b0d76edb8ac01eee7ecbbbedf"
+        },
+        "r02.symbols.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaohonghua.svg",
+          "sha256": "b68f5e6d76228f6f885b6fbb2758894659e5b3bfe46f7d755db1cf9e755e6a58"
+        },
+        "r02.symbols.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaosuanpan.svg",
+          "sha256": "a49bea40e2530ad6eaa42435eae8ad04092d3b6f66fc1aad2930605d4e0079d0"
+        },
+        "r02.symbols.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaojinkuang.svg",
+          "sha256": "39fecff4000b6884e68844535525627c617cce64715d7e4ee4ae0ca6e3b19418"
+        },
+        "r02.symbols.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaohulu.svg",
+          "sha256": "d916667524961b5d0270b72f430a09f8c326c6f71f243aa52ce3577cbefaeda3"
+        },
+        "r02.symbols.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaozishu.svg",
+          "sha256": "e09829a7bf6dd530d16bda8f3bc6ba6600b0f054b3973ee9556a9872472b3ff8"
+        },
+        "r02.symbols.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaotaiyang.svg",
+          "sha256": "f88e04d9ababb868a49c569b636313b17e214bfed74b437755e2044b1d4c02ce"
+        },
+        "r02.symbols.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaodianwei.svg",
+          "sha256": "11912e1a793b640c6398b3f9a9c6f7d7fcf81c8860544dc05c250c50a43d22a0"
+        },
+        "r02.symbols.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/yuanmaxiang.svg",
+          "sha256": "37b5c2795b001d52a852dcc27ba012e1d6efea49636ad724bea63aa4b06c839e"
+        },
+        "r02.symbols.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/suyuanli.svg",
+          "sha256": "3b3a62863e9f86732886fee6a4b8a23aedf69c9fa4f468e048244f4ed89c385d"
+        },
+        "r02.symbols.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/symbols/xiaozongguan.svg",
+          "sha256": "445916688faabae14402f55ae286f20c8a59abc9675f4876767e5a57091da405"
+        },
+        "r02.app-icons.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaoputao.svg",
+          "sha256": "16281ce4500d456bd69afceb1dc0fd1ba1153be75ed33b108bd33c8f8bd38e81"
+        },
+        "r02.app-icons.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaohonghua.svg",
+          "sha256": "148d0d57b0aa4bed44494c0f8683f82151ac15b20e65ffbf2bd0682ce67952c3"
+        },
+        "r02.app-icons.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaosuanpan.svg",
+          "sha256": "5becf7ef35df8e208c73754e9373a04ebc41a4aab2cef2b9b81c2ba48ad8ddf0"
+        },
+        "r02.app-icons.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaojinkuang.svg",
+          "sha256": "39634df083e1543ef2e8ba018633a8cdf217653c6017a13de1fe2bc53929fcd8"
+        },
+        "r02.app-icons.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaohulu.svg",
+          "sha256": "13ee6a9a8d37381d7ef31e933b985a6243163f220e78e538b094070300d7a8eb"
+        },
+        "r02.app-icons.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaozishu.svg",
+          "sha256": "85bcbbb2721c9c1b1c3a5a8b4812007f4bc5286074454abdc4ed4e7a47c20f05"
+        },
+        "r02.app-icons.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaotaiyang.svg",
+          "sha256": "050270dfca7361c6fa0fe93bfef28c03bf384682a5ce6473ed47a4a82624ef00"
+        },
+        "r02.app-icons.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaodianwei.svg",
+          "sha256": "307d5f5d39504e07ff123c934772b8601ee78915b1d8e48930c690cf9b0c240b"
+        },
+        "r02.app-icons.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/yuanmaxiang.svg",
+          "sha256": "4ec6a21e91070130a735be3dd841e07152fe408d206e6bd1802ddffa7c1c06a5"
+        },
+        "r02.app-icons.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/suyuanli.svg",
+          "sha256": "df81c9f00fd4aa56c49e00a4b60a6571ae9c0b500196942133cb411298176418"
+        },
+        "r02.app-icons.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/app-icons/xiaozongguan.svg",
+          "sha256": "d381ff7cc1ee856ab917193905916a438146233683175a767c35d46f3fe4e00b"
+        },
+        "r02.lockups.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaoputao-zh.svg",
+          "sha256": "03275de2097a23813e9ed87422b8af9e24fbcce00a8ecc55f1cf0b7a072925a2"
+        },
+        "r02.lockups.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaohonghua-zh.svg",
+          "sha256": "80b3ebf80595b9eae55621706f321ec4b641939890d77a511fac1e3e2a992a0d"
+        },
+        "r02.lockups.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaosuanpan-zh.svg",
+          "sha256": "94eab0cd79d74650b578f36bb6475ba59c63831c525f68d1d5d3321be827f5b4"
+        },
+        "r02.lockups.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaojinkuang-zh.svg",
+          "sha256": "5aa374e8643d912b57e209e71fa66c68a7b38a7fe9e27bb4028650bb11c09603"
+        },
+        "r02.lockups.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaohulu-zh.svg",
+          "sha256": "248efb6040281f1ee25dcab483362fc9c60299a9ee48e400228bcaed57118765"
+        },
+        "r02.lockups.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaozishu-zh.svg",
+          "sha256": "8b3490eaf97ff6fc2113bb199a96df04728886325bd036b7f6a6c08a1c1a48ec"
+        },
+        "r02.lockups.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaotaiyang-zh.svg",
+          "sha256": "57dea066fad9e5cac9305c925b2ec4e251ac625a0cd843751c36165c480f6440"
+        },
+        "r02.lockups.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaodianwei-zh.svg",
+          "sha256": "0530a16e202488e23c48c2f92696651a31fdb3ba3ff0d03c6b56bfb5be938942"
+        },
+        "r02.lockups.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/yuanmaxiang-zh.svg",
+          "sha256": "a39c533637f99da642617db824e897d289fdb601b47d12943052e36bc551f93c"
+        },
+        "r02.lockups.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/suyuanli-zh.svg",
+          "sha256": "1675c329cde2623b64246617cd77a78577492ac92e1ae8dd16a7347853388b21"
+        },
+        "r02.lockups.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/lockups/xiaozongguan-zh.svg",
+          "sha256": "81a9f67f9dfd7b813a387bf853b23dc4ad490b84b69cd38845fd4428334ea701"
+        },
+        "r02.mono-dark.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaoputao.svg",
+          "sha256": "99bb138cf7a2277557d37e0f3cfe74561f61f073c44b1b5e4535b07333707430"
+        },
+        "r02.mono-dark.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaohonghua.svg",
+          "sha256": "c6d2a6c9d7a70e2ee45e2431f639258361965e2ff4b3c454195dcb73b665c845"
+        },
+        "r02.mono-dark.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaosuanpan.svg",
+          "sha256": "5c63157cca5c6834820ac406cc15be2aaa38ff5c577afbeb16d16d4f727a46bf"
+        },
+        "r02.mono-dark.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaojinkuang.svg",
+          "sha256": "b0e9ca43f622f267288fd60a5b4207ceb2d52c43eb7d9a08ae956ee3dcfd1529"
+        },
+        "r02.mono-dark.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaohulu.svg",
+          "sha256": "f5aef35b412f24dd8fd4c8037b27ebe67cc1401617a146737ad3b0ebc4f46724"
+        },
+        "r02.mono-dark.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaozishu.svg",
+          "sha256": "3e3b15c2a5219372930511edccdba23c4db157ae8f4a9d5e18275f4a3708e16e"
+        },
+        "r02.mono-dark.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaotaiyang.svg",
+          "sha256": "26766045a53208b2da2c745de57faeafc1901eae60aaab1b7fb591f0eb5ec82c"
+        },
+        "r02.mono-dark.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaodianwei.svg",
+          "sha256": "ce6ad2f4441e4df758b90b577e3a194a67f88407b39224e450c14c1392f1899e"
+        },
+        "r02.mono-dark.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/yuanmaxiang.svg",
+          "sha256": "b10ba38147ccc804c3f25ca73f98698cd005b430a37a0f4b3b396bcd0a1dd5c1"
+        },
+        "r02.mono-dark.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/suyuanli.svg",
+          "sha256": "29fc48092e82bd1520e009fb9ace8f6048d98fb003abc3ec83c26eab1e39c673"
+        },
+        "r02.mono-dark.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-dark/xiaozongguan.svg",
+          "sha256": "79166bcfd4b6fbcc39daecbafff3d93fceaa7e72df8e97ec15d93f0a8d5ab7a8"
+        },
+        "r02.mono-light.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaoputao.svg",
+          "sha256": "49824aff3acf94a114ef92dc18ffcd2c7a1db167825ed2fbd9bc48fc6371859f"
+        },
+        "r02.mono-light.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaohonghua.svg",
+          "sha256": "4d45e96f189d7a3d47d665abee0eb74e8e8c18be5d1c9d0e4611b9015ebe3c0d"
+        },
+        "r02.mono-light.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaosuanpan.svg",
+          "sha256": "1917af33f31d1e09e126bac6a44e63fc6cb5e8fff8caf45c29c7b77761841bfe"
+        },
+        "r02.mono-light.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaojinkuang.svg",
+          "sha256": "c81e5089b7b684fdc1cd35eb4ddab4df08084e8e8b2af8154731842820d2fdb8"
+        },
+        "r02.mono-light.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaohulu.svg",
+          "sha256": "df20b92c63ea8adff418a55d49d2e41e25b030db743a7d66f62741d2a3d0ae0b"
+        },
+        "r02.mono-light.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaozishu.svg",
+          "sha256": "99769764509889c88a7a97ac2e077ce95a2d4075c8ed5d39710c2a2875497be3"
+        },
+        "r02.mono-light.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaotaiyang.svg",
+          "sha256": "4aefb8d54237ef1f52ab5b38e27407fa8ad559b69962449b3f2b9f7fa2f0c242"
+        },
+        "r02.mono-light.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaodianwei.svg",
+          "sha256": "2b0ad677d3149b24cb323eff152782c31aa0a88614486b4237c912171bd0bf62"
+        },
+        "r02.mono-light.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/yuanmaxiang.svg",
+          "sha256": "d4cc165f01e7434f7e2a61110b5038b140422e9cb937ea89e7c23ace387e0215"
+        },
+        "r02.mono-light.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/suyuanli.svg",
+          "sha256": "39ed4a7956403bc1dd66d50f1e36814001721f0f5814a2097150a83f7cc975d3"
+        },
+        "r02.mono-light.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r02/mono-light/xiaozongguan.svg",
+          "sha256": "a8cda09e12aca9935c713a268b30364adcab78fecd35c611bbb385aab30f69b5"
+        },
+        "r03.symbols.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaoputao.svg",
+          "sha256": "52326d707d3428cb2dd0459412a7fedf7f347a015b7dabe55f688cff97a35692"
+        },
+        "r03.symbols.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaohonghua.svg",
+          "sha256": "51db2fc1a591b9686312bfd0a7dc648a1e86781bb16159f070e3fac325396903"
+        },
+        "r03.symbols.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaosuanpan.svg",
+          "sha256": "8021dee033a56be6a434d9272664582676cee66a8a4cca6df6f9a9e084b55f5d"
+        },
+        "r03.symbols.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaojinkuang.svg",
+          "sha256": "6069b40aad28caf383fff17bf30a4e5e061d9e4281ab5d4898d1aa955902f1fa"
+        },
+        "r03.symbols.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaohulu.svg",
+          "sha256": "0d0c6451c690940256d39a91a5f9373e804e7223d3ea39f6c2038b907a406eb9"
+        },
+        "r03.symbols.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaozishu.svg",
+          "sha256": "cbac05a8dab6c598dfae0ffa9ad212fb10c52df462ece159fe4e6fea0a3b01e7"
+        },
+        "r03.symbols.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaotaiyang.svg",
+          "sha256": "9897f2381521c8fffcce3ecae55c78cdd7aec1cd7d94d2984f417fe4d809c356"
+        },
+        "r03.symbols.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaodianwei.svg",
+          "sha256": "2ba51dd7eaee0d82429a5044ce6d33f3a8885c4415482a9c9f35c4c15bb58be4"
+        },
+        "r03.symbols.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/yuanmaxiang.svg",
+          "sha256": "df3f8487d4281bf9849083f88cb8ff6b7f1575bc62d1f273b261fb8aec0fbe0e"
+        },
+        "r03.symbols.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/suyuanli.svg",
+          "sha256": "5d02c0d56f1c61f6e965776a45037b7d07796bdd1ae332ccac4473669ad3c20f"
+        },
+        "r03.symbols.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/symbols/xiaozongguan.svg",
+          "sha256": "465bc5e2ddaa6247d004dd007559a023f3be98c62c1ccca1528a647a4457ac05"
+        },
+        "r03.app-icons.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaoputao.svg",
+          "sha256": "52326d707d3428cb2dd0459412a7fedf7f347a015b7dabe55f688cff97a35692"
+        },
+        "r03.app-icons.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaohonghua.svg",
+          "sha256": "51db2fc1a591b9686312bfd0a7dc648a1e86781bb16159f070e3fac325396903"
+        },
+        "r03.app-icons.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaosuanpan.svg",
+          "sha256": "8021dee033a56be6a434d9272664582676cee66a8a4cca6df6f9a9e084b55f5d"
+        },
+        "r03.app-icons.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaojinkuang.svg",
+          "sha256": "6069b40aad28caf383fff17bf30a4e5e061d9e4281ab5d4898d1aa955902f1fa"
+        },
+        "r03.app-icons.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaohulu.svg",
+          "sha256": "0d0c6451c690940256d39a91a5f9373e804e7223d3ea39f6c2038b907a406eb9"
+        },
+        "r03.app-icons.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaozishu.svg",
+          "sha256": "cbac05a8dab6c598dfae0ffa9ad212fb10c52df462ece159fe4e6fea0a3b01e7"
+        },
+        "r03.app-icons.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaotaiyang.svg",
+          "sha256": "9897f2381521c8fffcce3ecae55c78cdd7aec1cd7d94d2984f417fe4d809c356"
+        },
+        "r03.app-icons.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaodianwei.svg",
+          "sha256": "2ba51dd7eaee0d82429a5044ce6d33f3a8885c4415482a9c9f35c4c15bb58be4"
+        },
+        "r03.app-icons.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/yuanmaxiang.svg",
+          "sha256": "df3f8487d4281bf9849083f88cb8ff6b7f1575bc62d1f273b261fb8aec0fbe0e"
+        },
+        "r03.app-icons.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/suyuanli.svg",
+          "sha256": "5d02c0d56f1c61f6e965776a45037b7d07796bdd1ae332ccac4473669ad3c20f"
+        },
+        "r03.app-icons.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/app-icons/xiaozongguan.svg",
+          "sha256": "465bc5e2ddaa6247d004dd007559a023f3be98c62c1ccca1528a647a4457ac05"
+        },
+        "r03.lockups.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaoputao-zh.svg",
+          "sha256": "0df26bc0cdd764ae6cbef2b7265f8b26d5d80d2ae82e15ee8a8f82edec64cc00"
+        },
+        "r03.lockups.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaohonghua-zh.svg",
+          "sha256": "0865ca2281b1ebef291b4905d5ac80dbdd9ead5e72ea0361f0697630fc030fb7"
+        },
+        "r03.lockups.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaosuanpan-zh.svg",
+          "sha256": "ddf0b815d2d3baafc1c7da8b6e1c5ba25943c6ef532ac8b9c81a26da88db2c55"
+        },
+        "r03.lockups.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaojinkuang-zh.svg",
+          "sha256": "eb304bffe0b0366fb99043e2ae6f235bc5eaae71123a29306f648c0e15b7aa23"
+        },
+        "r03.lockups.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaohulu-zh.svg",
+          "sha256": "57da25eaff68de2f330a2ec6105537fe3d3417bca70b5b32c8c4569dbfdc4cf3"
+        },
+        "r03.lockups.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaozishu-zh.svg",
+          "sha256": "b06c13c0c6d510f3a9fe4f9617d38eb15b64ac2751aebdb8892a4a593f98adae"
+        },
+        "r03.lockups.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaotaiyang-zh.svg",
+          "sha256": "76449fdb690cac41523173d0ea8259ee6b5c6beb3b43c39bd3eedad6b24ee427"
+        },
+        "r03.lockups.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaodianwei-zh.svg",
+          "sha256": "c00bb8efce2e0b7455fb026f56a44f01a592982e2653fc97f8fe66b97c510bf2"
+        },
+        "r03.lockups.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/yuanmaxiang-zh.svg",
+          "sha256": "955d5d3fafd6dadfc3edf63e6b6bf293640984631dc64e28f40c62ebff099def"
+        },
+        "r03.lockups.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/suyuanli-zh.svg",
+          "sha256": "349b172fcdddc3914c79a8d03b67c1251c80a4142813f1999cfa5f96e1f0a2e1"
+        },
+        "r03.lockups.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/lockups/xiaozongguan-zh.svg",
+          "sha256": "80e34010338e5bed31c43b69c79ebc7e923e12d991214d6488ae0c33d94e58f9"
+        },
+        "r03.mono-dark.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaoputao.svg",
+          "sha256": "5dc85625608bd8b5ce8c69d62d0f5496b45e259a3d3db7ab84142953fd24af6c"
+        },
+        "r03.mono-dark.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaohonghua.svg",
+          "sha256": "753ab8201beb540314eab358f404cedea429d4fd5c85450f071088cd5d53baf8"
+        },
+        "r03.mono-dark.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaosuanpan.svg",
+          "sha256": "2c2adae8bee34b93b93f236b2f9373ed15946afb70ec2f92cf5e3fcbddd0abf9"
+        },
+        "r03.mono-dark.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaojinkuang.svg",
+          "sha256": "77d9791e971d74a3c430e0af702478ff4f78368e916265fa633f4d296015f182"
+        },
+        "r03.mono-dark.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaohulu.svg",
+          "sha256": "241900a0eea4aa6c212db1359edc5bf214963e080c13fe4f05b4e6569be1ba66"
+        },
+        "r03.mono-dark.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaozishu.svg",
+          "sha256": "483fa470f4755bf33cec421716cbf24b48d21a83257b9912160a93a377545864"
+        },
+        "r03.mono-dark.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaotaiyang.svg",
+          "sha256": "90fc98ed45989c755fcf03209d3da80d89e49482b7fdf11448624c83600d4df8"
+        },
+        "r03.mono-dark.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaodianwei.svg",
+          "sha256": "9698f7b86c2b5b02da9ba74d48ed9359f24ff2b9fb84b71f46546a9f96b7dcc5"
+        },
+        "r03.mono-dark.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/yuanmaxiang.svg",
+          "sha256": "33d8bbee400ebab7da3bb9879248f42773deb879db88f6a326ab67555bf652f5"
+        },
+        "r03.mono-dark.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/suyuanli.svg",
+          "sha256": "77fc44e6419b897b3d17a2ae73fdad62acff4708633e60ef176aa0600c37e7a1"
+        },
+        "r03.mono-dark.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-dark/xiaozongguan.svg",
+          "sha256": "4510b853b24df735d0586d4dd92dfba6e0e8b1254a9170efcf473f624f4342c9"
+        },
+        "r03.mono-light.xiaoputao": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaoputao.svg",
+          "sha256": "e9b8230deaf3c95feca1feaef6e8982aba80001e131efc1bc2cad798fbbefae2"
+        },
+        "r03.mono-light.xiaohonghua": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaohonghua.svg",
+          "sha256": "fc7d1858f5829e090c82c010aded4194b472a3a183ae74c6c50ff949aa296398"
+        },
+        "r03.mono-light.xiaosuanpan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaosuanpan.svg",
+          "sha256": "601610afab80a20266a280d780ee03d985230eb736b77559f53a5f931d60e1b5"
+        },
+        "r03.mono-light.xiaojinkuang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaojinkuang.svg",
+          "sha256": "268705918617c4d3b6b2113b0055b0911aa5abb5692df0678a70114615ff28c6"
+        },
+        "r03.mono-light.xiaohulu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaohulu.svg",
+          "sha256": "d0c903b38440caac53f0a1b0f20b364c1f830eba67b9113ba0d1ef559aeadd6b"
+        },
+        "r03.mono-light.xiaozishu": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaozishu.svg",
+          "sha256": "b791ecd64e9c260f0957baa40ec7d495ed7c0e9268cbb1826ce4c9c54ef832c1"
+        },
+        "r03.mono-light.xiaotaiyang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaotaiyang.svg",
+          "sha256": "ab14bb8ce3a255316fb75f7b1d563daa52580f6a76442895d6d1ae4f38e927d5"
+        },
+        "r03.mono-light.xiaodianwei": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaodianwei.svg",
+          "sha256": "c3078e0a14e70b27c6ebd6b3b589fc1d6c41909bca8aa6f8418047cf42c8eabe"
+        },
+        "r03.mono-light.yuanmaxiang": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/yuanmaxiang.svg",
+          "sha256": "71aa33e9bb5b4350e8bca4b367eb10e4fe50f875be84b3367b96eabd5abdd6a2"
+        },
+        "r03.mono-light.suyuanli": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/suyuanli.svg",
+          "sha256": "9582694c368dc65806740e94cc0eb44ac8cb875ba24e5cbed4e6f1a1c4ba965c"
+        },
+        "r03.mono-light.xiaozongguan": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/products/r03/mono-light/xiaozongguan.svg",
+          "sha256": "1ee54e7d282683bd7319afb1fb699337a8d847d60bca5e13b608f9737145e753"
+        }
+      }
     },
     "templatePatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/template-patterns.json",
-        "sha256": "48be13d0e8cd489114e2e005925a3111b749e183dbfd8b415a9f41552a3ddd7a"
+        "sha256": "7c9a387e73f2d7cefa3eac3667e8778214fb8632b9196a3805d477826933cafa"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/template-patterns.ts",
-        "sha256": "fa021a49180aa27cf80e67b9b18e5a6944af17dd963a55fed1f0cf6fcad6fc05"
+        "sha256": "8aa492867b1f7b7924721588b85df25e2fc09df753852e2ec499fa5e23b09556"
       }
     },
     "motionSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/MOTION_SYSTEM_2026.md",
-      "sha256": "43280da003b17d2d5af6e018959b635b64122267c923f1d12ac53a51a3749380"
+      "sha256": "b4fe7cca959a31bd7bec2ba7494b23c7cd7f75d221d1f3fe40ecf09a71d1bde0"
     },
     "motionAudit": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/UI_2_MOTION_AUDIT.md",
-      "sha256": "ed45f147a77a6735831ab26c947c96a227a14f109246596ee92a91f73a919815"
+      "sha256": "9721a5f538286259b720be862b39fb0e2bd69ed4dfec7e98d9fc654075f136cb"
     },
     "motionPatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/motion-patterns.json",
-        "sha256": "b1df85c54d4cf211f07c1aa6e70bb977f1f1adf6a729c4849983c58d9884e37c"
+        "sha256": "3519b9fdebfe7786bb02a1c12f1e2439abc47893a9588d92896b0a83a375371e"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/motion-patterns.ts",
-        "sha256": "112325e15dd287b5315aa890b41a1087c42f549f715a1bac5be23c10e40d3cbd"
+        "sha256": "015e43e9299246f16b27cfa1d6aaab1d177217934c7263bc800cbc13c4775017"
       }
     },
     "icons": {
       "xiaoputao": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaoputao.svg",
-        "sha256": "9989eddc7b9273d76fdaeaf1b792511824aa75d137fa34d816ca5fe51f9b9d59"
+        "sha256": "16281ce4500d456bd69afceb1dc0fd1ba1153be75ed33b108bd33c8f8bd38e81"
       },
       "xiaohonghua": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaohonghua.svg",
-        "sha256": "ce33d334fc516e0a8fb22c25190851e04aedac39de97d073b160cbf9c60e028e"
+        "sha256": "148d0d57b0aa4bed44494c0f8683f82151ac15b20e65ffbf2bd0682ce67952c3"
       },
       "xiaosuanpan": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaosuanpan.svg",
-        "sha256": "0ff21a2c8690229cdfaffa4670b30533917a0696cd0c3d5178b31d162a89513f"
+        "sha256": "5becf7ef35df8e208c73754e9373a04ebc41a4aab2cef2b9b81c2ba48ad8ddf0"
       },
       "xiaojinkuang": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaojinkuang.svg",
-        "sha256": "cb3e775c3620d0dd835b17acb0a1bc852cbe1fec2bdc43f649c4c2be6a246884"
+        "sha256": "39634df083e1543ef2e8ba018633a8cdf217653c6017a13de1fe2bc53929fcd8"
       },
       "xiaohulu": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaohulu.svg",
-        "sha256": "66ab1374dc314845bc7ef44feb69ac5fc8932c929561bc8f6a333734f6f34e18"
+        "sha256": "13ee6a9a8d37381d7ef31e933b985a6243163f220e78e538b094070300d7a8eb"
       },
       "xiaozishu": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaozishu.svg",
-        "sha256": "83bf7bebd68623f023534c540c6c9cd61c7e407810148ad652f14d1ad81fad39"
+        "sha256": "85bcbbb2721c9c1b1c3a5a8b4812007f4bc5286074454abdc4ed4e7a47c20f05"
       },
       "xiaotaiyang": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaotaiyang.svg",
-        "sha256": "20d863f78e494e75c739ee7ec166596b9a87ad9895ecc5b49e9553f803882617"
+        "sha256": "050270dfca7361c6fa0fe93bfef28c03bf384682a5ce6473ed47a4a82624ef00"
+      },
+      "xiaodianwei": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaodianwei.svg",
+        "sha256": "307d5f5d39504e07ff123c934772b8601ee78915b1d8e48930c690cf9b0c240b"
       },
       "yuanmaxiang": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/yuanmaxiang.svg",
-        "sha256": "601b05f76df4dc9d15860c516c383e60f407ee89fba81fe775dac9c8b26d13ce"
+        "sha256": "4ec6a21e91070130a735be3dd841e07152fe408d206e6bd1802ddffa7c1c06a5"
       },
       "suyuanli": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/suyuanli.svg",
-        "sha256": "b062a7d74229eb85b505ffc0e4817738ad507587269627d563284e52a4e2f0e1"
+        "sha256": "df81c9f00fd4aa56c49e00a4b60a6571ae9c0b500196942133cb411298176418"
       },
       "xiaozongguan": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/xiaozongguan.svg",
-        "sha256": "76f9bb319d62d3f968f39dfc7a583ab85aee344a0acf6b22eaf5ed4b629e7539"
+        "sha256": "d381ff7cc1ee856ab917193905916a438146233683175a767c35d46f3fe4e00b"
       }
     },
     "commonIcons": {
@@ -134,7 +814,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
-        "sha256": "672844967cfb19dbb0c799dfef07cd489fee815e5eb3078cb6efc1ecad5f4a83"
+        "sha256": "3614f96e3380e5ea28cbe9f3a69b93037e129dfc16056a7717bbd9426fc0e5c8"
       }
     },
     "externalBrands": {
@@ -144,7 +824,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brands.ts",
-        "sha256": "99a864529f2fa6b4a96a662d88a4deec3a34e247b5034722ebab8f7889da700e"
+        "sha256": "9342a3874dc8c0186642f38c996b3defbd7d0d365a090f57c365f767ee054c58"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.json",
@@ -152,7 +832,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.ts",
-        "sha256": "a490c602c5f7e837644b27c7590a503c54580c826d52478ab74ded7461e9d4bd"
+        "sha256": "b96c30aeff94be4b31480b2dd8c5e98a70a9c0c7c263254972af0b5934674593"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/official-brand-sources.json",
@@ -161,7 +841,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "159058a39b5b88ea06cc401202233c32c2d6d7d38c10b7e0abe6e6e4132a3736"
+      "sha256": "e185dd258aec823b4b1126959e44299cdf17b111bc7d64b3ee4c297e88f1be48"
     }
   },
   "compatibility": {
