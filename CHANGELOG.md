@@ -3,8 +3,16 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.7.0
+Version: 2.8.0
 ```
+
+## 2.8.0 — 2026-08-30
+
+- 新增面向企业 Web、Mobile、Pad 与数据可视化的动效决策体系，以使用频率和明确目的作为是否播放动效的第一道门槛。
+- 新增 `tokens.json.motion`，统一 0–280ms 时长、进入/位移/抽屉曲线、按压与入场尺度、错峰上限、减少动态效果和跨端策略。
+- 新增 `MOTION_SYSTEM_2026.md`、`motion-patterns.json`、TypeScript 映射和 `UI_2_MOTION_AUDIT.md`，覆盖 12 类组件与企业数据场景。
+- 规范站增加可交互动效示例；取消所有业务页面统一淡入，减少动态效果改为移除位置变化但保留必要颜色与透明度反馈。
+- 动态 Skill 新增动效专项路由、P0/P1/P2 审计分级和依赖边界；固定 Skill、GitHub 清单与下载地址保持不变。
 
 ## 2.7.0 — 2026-08-30
 

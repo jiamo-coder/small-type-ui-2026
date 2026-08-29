@@ -1,0 +1,506 @@
+// Generated from design-system/tokens.json.
+// Design Standard: 2026 小字号 UI 2.0
+// Standard ID: small-type-ui-2026
+// Version: 2.8.0
+export type MotionPlatform = 'web' | 'mobile' | 'tablet';
+export type MotionPattern = {
+  id: string;
+  title: string;
+  platforms: readonly MotionPlatform[];
+  frequency: 'high' | 'regular' | 'occasional' | 'rare';
+  purpose: string;
+  trigger: string;
+  properties: readonly string[];
+  durationToken: keyof typeof smallTypeUI2026Motion.duration;
+  easingToken: keyof typeof smallTypeUI2026Motion.easing;
+  reducedMotion: string;
+  allowedWhen: readonly string[];
+  forbidden: readonly string[];
+  verification: readonly string[];
+};
+
+export const smallTypeUI2026Motion = {
+  "principle": "purpose-frequency-first",
+  "maximumUiDuration": 280,
+  "duration": {
+    "instant": 0,
+    "press": 120,
+    "tooltip": 140,
+    "fast": 160,
+    "popover": 180,
+    "standard": 200,
+    "shell": 220,
+    "modal": 240,
+    "emphasis": 280
+  },
+  "easing": {
+    "enter": "cubic-bezier(0.23, 1, 0.32, 1)",
+    "move": "cubic-bezier(0.77, 0, 0.175, 1)",
+    "drawer": "cubic-bezier(0.32, 0.72, 0, 1)",
+    "constant": "linear"
+  },
+  "transform": {
+    "pressScale": 0.97,
+    "enterScale": 0.96,
+    "microDistance": 4,
+    "smallDistance": 8
+  },
+  "stagger": {
+    "step": 40,
+    "maximumItems": 5,
+    "maximumTotal": 160
+  },
+  "frequency": {
+    "high": "instant-or-near-imperceptible",
+    "regular": "fast",
+    "occasional": "standard",
+    "rare": "emphasis"
+  },
+  "reducedMotion": {
+    "removeTranslation": true,
+    "removeScale": true,
+    "removeParallax": true,
+    "removeOvershoot": true,
+    "preserveOpacity": true,
+    "preserveColor": true,
+    "feedbackDuration": 160
+  },
+  "platform": {
+    "web": {
+      "preferredTools": [
+        "css-transition",
+        "css-starting-style",
+        "waapi"
+      ],
+      "libraryPolicy": "reuse-existing-only"
+    },
+    "mobile": {
+      "navigation": "platform-native",
+      "gestureRuntime": "ui-thread-when-available",
+      "haptics": "one-per-user-commit-and-never-only-feedback"
+    },
+    "tablet": {
+      "highFrequencyWorkbench": "instant",
+      "gestureRuntime": "platform-native-or-ui-thread"
+    }
+  },
+  "dataVisualization": {
+    "initialDraw": "none",
+    "filterUpdate": "preserve-object-identity",
+    "numberChange": "do-not-count-from-zero",
+    "criticalAlert": "immediate-no-loop",
+    "tableRows": "no-stagger",
+    "liveData": "never-delay-for-animation"
+  }
+} as const;
+export const motionPatternCatalog = {
+  "standard": "small-type-ui-2026",
+  "version": "2.8.0",
+  "count": 12,
+  "patterns": [
+    {
+      "id": "press-feedback",
+      "title": "按压反馈",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "regular",
+      "purpose": "feedback",
+      "trigger": "pointer-or-touch",
+      "properties": [
+        "transform"
+      ],
+      "durationToken": "press",
+      "easingToken": "enter",
+      "reducedMotion": "use-color-or-opacity-without-scale",
+      "allowedWhen": [
+        "独立主要操作",
+        "触控按钮",
+        "需要立即确认已接收输入"
+      ],
+      "forbidden": [
+        "键盘触发",
+        "表格逐行操作",
+        "高频工具栏全部缩放"
+      ],
+      "verification": [
+        "按下即反馈而非提交后反馈",
+        "不改变布局",
+        "触控目标符合平台规范"
+      ]
+    },
+    {
+      "id": "anchored-popover",
+      "title": "触发点浮层",
+      "platforms": [
+        "web",
+        "tablet"
+      ],
+      "frequency": "occasional",
+      "purpose": "spatial-consistency",
+      "trigger": "open-close",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "popover",
+      "easingToken": "enter",
+      "reducedMotion": "opacity-only",
+      "allowedWhen": [
+        "菜单",
+        "选择器",
+        "日期面板",
+        "触发点关系明确"
+      ],
+      "forbidden": [
+        "从视口中心缩放",
+        "scale(0)",
+        "改变宽高驱动入场"
+      ],
+      "verification": [
+        "transform-origin 指向触发控件",
+        "快速重复开关可中断",
+        "关闭路径与打开一致"
+      ]
+    },
+    {
+      "id": "tooltip-sequence",
+      "title": "连续工具提示",
+      "platforms": [
+        "web",
+        "tablet"
+      ],
+      "frequency": "regular",
+      "purpose": "feedback",
+      "trigger": "hover-or-focus",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "tooltip",
+      "easingToken": "enter",
+      "reducedMotion": "opacity-only",
+      "allowedWhen": [
+        "首次停留",
+        "键盘聚焦",
+        "图标含义需要解释"
+      ],
+      "forbidden": [
+        "触摸端依赖 hover",
+        "同组每次重复等待和播放"
+      ],
+      "verification": [
+        "hover 仅在精细指针启用",
+        "相邻提示在首个打开后即时切换",
+        "焦点可访问"
+      ]
+    },
+    {
+      "id": "modal-dialog",
+      "title": "模态对话框",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "occasional",
+      "purpose": "state-indication",
+      "trigger": "open-close",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "modal",
+      "easingToken": "enter",
+      "reducedMotion": "opacity-only",
+      "allowedWhen": [
+        "需要阻断当前任务",
+        "确认或短流程"
+      ],
+      "forbidden": [
+        "把普通详情全部做成模态",
+        "弹性过冲",
+        "关闭后焦点丢失"
+      ],
+      "verification": [
+        "遮罩与面板同步",
+        "焦点锁定并返回触发点",
+        "打开关闭均可被打断"
+      ]
+    },
+    {
+      "id": "drawer-sheet",
+      "title": "抽屉与底部面板",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "occasional",
+      "purpose": "spatial-consistency",
+      "trigger": "open-close-or-gesture",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "emphasis",
+      "easingToken": "drawer",
+      "reducedMotion": "opacity-only-and-no-overshoot",
+      "allowedWhen": [
+        "筛选",
+        "短任务",
+        "补充上下文",
+        "移动端平台原生面板"
+      ],
+      "forbidden": [
+        "键盘高频操作播放完整进出",
+        "通过 left/top 移动",
+        "缺少 Esc 或返回关闭"
+      ],
+      "verification": [
+        "百分比位移适应内容尺寸",
+        "手势释放继承速度",
+        "安全区与返回手势正常"
+      ]
+    },
+    {
+      "id": "toast-feedback",
+      "title": "轻量结果反馈",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "occasional",
+      "purpose": "feedback",
+      "trigger": "operation-result",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "standard",
+      "easingToken": "enter",
+      "reducedMotion": "opacity-only",
+      "allowedWhen": [
+        "成功",
+        "失败",
+        "已保存",
+        "已复制"
+      ],
+      "forbidden": [
+        "替代字段内错误",
+        "循环播放",
+        "相同事件无限堆叠"
+      ],
+      "verification": [
+        "进入和退出方向一致",
+        "退出快于或等于进入",
+        "读屏可获知结果"
+      ]
+    },
+    {
+      "id": "accordion-disclosure",
+      "title": "折叠内容",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "regular",
+      "purpose": "state-indication",
+      "trigger": "expand-collapse",
+      "properties": [
+        "height",
+        "opacity"
+      ],
+      "durationToken": "standard",
+      "easingToken": "enter",
+      "reducedMotion": "instant-layout-with-opacity-feedback",
+      "allowedWhen": [
+        "内容长度有限",
+        "结构需要保持上下文"
+      ],
+      "forbidden": [
+        "长表格展开",
+        "硬编码中文内容高度",
+        "嵌套多层同时播放"
+      ],
+      "verification": [
+        "这是受控布局动画例外",
+        "实际内容高度可测量",
+        "键盘操作后状态明确"
+      ]
+    },
+    {
+      "id": "state-crossfade",
+      "title": "状态内容切换",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "regular",
+      "purpose": "prevent-jarring-change",
+      "trigger": "state-update",
+      "properties": [
+        "opacity"
+      ],
+      "durationToken": "fast",
+      "easingToken": "enter",
+      "reducedMotion": "keep-short-opacity",
+      "allowedWhen": [
+        "加载转结果",
+        "空状态转内容",
+        "卡片局部状态更新"
+      ],
+      "forbidden": [
+        "整页导航统一淡入",
+        "遮盖数据刷新",
+        "同时显示两套可操作内容"
+      ],
+      "verification": [
+        "交互无需等待动画结束",
+        "焦点和滚动位置保持",
+        "失败状态不会被动画隐藏"
+      ]
+    },
+    {
+      "id": "list-reflow",
+      "title": "列表结构变化",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "occasional",
+      "purpose": "spatial-consistency",
+      "trigger": "insert-remove-reorder",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "standard",
+      "easingToken": "move",
+      "reducedMotion": "instant-reflow-with-focus-preservation",
+      "allowedWhen": [
+        "用户刚刚添加或删除少量对象",
+        "拖拽排序"
+      ],
+      "forbidden": [
+        "数据表逐行入场",
+        "虚拟列表滚动时重复播放",
+        "超过五项错峰"
+      ],
+      "verification": [
+        "稳定 key 保持对象身份",
+        "重排可被打断",
+        "删除后焦点有确定去向"
+      ]
+    },
+    {
+      "id": "gesture-dismiss",
+      "title": "手势关闭与复位",
+      "platforms": [
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "occasional",
+      "purpose": "feedback",
+      "trigger": "direct-manipulation",
+      "properties": [
+        "transform",
+        "opacity"
+      ],
+      "durationToken": "emphasis",
+      "easingToken": "drawer",
+      "reducedMotion": "platform-reduced-motion-and-no-overshoot",
+      "allowedWhen": [
+        "抽屉",
+        "卡片关闭",
+        "明确可逆手势"
+      ],
+      "forbidden": [
+        "仅距离阈值",
+        "跨 JS 线程逐帧 setState",
+        "触觉作为唯一反馈"
+      ],
+      "verification": [
+        "继承释放速度",
+        "边界具有阻尼",
+        "最慢支持设备发布构建验证"
+      ]
+    },
+    {
+      "id": "data-filter-update",
+      "title": "数据筛选更新",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "regular",
+      "purpose": "state-indication",
+      "trigger": "filter-or-range-change",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "fast",
+      "easingToken": "move",
+      "reducedMotion": "instant-data-with-short-opacity",
+      "allowedWhen": [
+        "同一指标在新范围内更新",
+        "图形对象身份保持"
+      ],
+      "forbidden": [
+        "折线重新描绘",
+        "数值从零滚动",
+        "动画延迟实时数据",
+        "坐标轴无提示改变"
+      ],
+      "verification": [
+        "单位、基线和更新时间立即可见",
+        "旧值与新值不会同时误导",
+        "筛选快速连续切换可中断"
+      ]
+    },
+    {
+      "id": "critical-alert-entry",
+      "title": "高危预警出现",
+      "platforms": [
+        "web",
+        "mobile",
+        "tablet"
+      ],
+      "frequency": "rare",
+      "purpose": "state-indication",
+      "trigger": "new-critical-state",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationToken": "fast",
+      "easingToken": "enter",
+      "reducedMotion": "instant-with-semantic-surface",
+      "allowedWhen": [
+        "真实新高危状态",
+        "必须立即处理"
+      ],
+      "forbidden": [
+        "循环闪烁",
+        "无限脉冲",
+        "只用红色",
+        "普通下降冒充高危"
+      ],
+      "verification": [
+        "状态立即出现且不等待动画",
+        "图标文字边框同时编码",
+        "处理入口和时限可访问"
+      ]
+    }
+  ]
+} as const;
+export const motionPatterns = motionPatternCatalog.patterns as readonly MotionPattern[];
+export type MotionPatternId = typeof motionPatternCatalog.patterns[number]['id'];
