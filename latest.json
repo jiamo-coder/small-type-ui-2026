@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.9.0",
+    "version": "2.10.0",
     "updated": "2026-08-30"
   },
   "channel": "stable",
@@ -11,23 +11,27 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "8707b45f44c9ae1dedf4ad92c0c02fb0d6461b903229c66bc59b62104b09cb3c"
+      "sha256": "0dc90a110e510a574e774b7759ca155ffa673ff03c18e74a4fc3613eeccf7b9f"
     },
     "webApplicationShell": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/WEB_APPLICATION_SHELL_2026.md",
-      "sha256": "3d65171c017ac4b7e0149120bf90e9f8b74a51d125a3d820c16e6ab6785d207f"
+      "sha256": "949cbd3439f9aa1634eb95f907ef6182d96f779119fa8878b0e8c11c6f283a4e"
+    },
+    "websiteStandard": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/WEBSITE_STANDARD_2026.md",
+      "sha256": "4665b5159bcb251154859a0673f0c4d4b73180c4c5968cc50d885140c6f843b8"
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "1b72c549f1a6aa0ca1d1456bbc266b5c312c7a9f17ef732cc5055c071ee9781c"
+      "sha256": "01d1e84a56afb611ea276fee631177580117bfb74f59ca49bfc6dac069516ffa"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "11df2bfd9325f09629a2ea45180c4f624a7b8e73b2bb8d9b9160557136edcbb5"
+      "sha256": "fe04a62eb5a4b73f7c8f9bcb2ed3705f7d4aa3c967812d099fa8594b7b2da742"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "76291873a0f68a71ad466b9ae598aeeeb6fda49b3f14dbfab8b995c2b00c60bf"
+      "sha256": "db5c65b63e86d9e383c785fe18d39ffe11ae087c05051876a4912338bee1b686"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -39,32 +43,32 @@
     },
     "mobileResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/MOBILE_RESEARCH_2026.md",
-      "sha256": "883de053149042ac366f57da9d318e896e2795b843188716a0119fe58d999422"
+      "sha256": "82943792623787e6bdfc11a0ee91d370ee8a193d60c7002e74b80e5e1bf6fa13"
     },
     "conversationalAgentResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CONVERSATIONAL_AGENT_RESEARCH_2026.md",
-      "sha256": "07a3e83cebebd72475be55bbcda423ca00678b78c9fdd39bd1d4c2851dd68ea3"
+      "sha256": "2e1fd6e701036cf5f4e778080ecef9f5b45f4500d13d5f3d9ef2c42fece1c1f8"
     },
     "tabletResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TABLET_RESEARCH_2026.md",
-      "sha256": "972542cd86f474e096e84158019686c3efd3a62421cfe1bab32c0736cadbf2c7"
+      "sha256": "b3ba359b4a4ed991f29bb55d89dcf3b1ab4d439182f97a63de0411aa9787aca9"
     },
     "templateResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/PRODUCT_TEMPLATE_LIBRARY_2026.md",
-      "sha256": "ae4deb2adc5940cf5adbfdc7ecaf056c5febfecf0512ce6935dfd984aec02a13"
+      "sha256": "a3f048ea3991723288d789b42eac46c29b057b8d2a9c489b837fda370a61a267"
     },
     "productLogoFamily": {
       "reference": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/PRODUCT_LOGO_FAMILY_2026.md",
-        "sha256": "3b04e6f45a131c698a8a53dcc93e548dc940ff5cc6c73927353113e2570d842b"
+        "sha256": "4e3b8248d25885db72d7eba1df80a23c945c34fd0c71ac0e7d586b86a27d5a51"
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/product-logo-family.json",
-        "sha256": "8808e51bb11b842c76579e1619d00c6f7a07fccd6e9b21a60df8fc0dda0d49f1"
+        "sha256": "6481b13eba3682192f590a55f0b43e391f6b493b16ad1fbc12197b8d5dfb1cf8"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/product-logo-family.ts",
-        "sha256": "74ba910ebe18ad8dc1921649fa6f98113bddbe489599a8ba4bb8bb67d8fa1a60"
+        "sha256": "79bd29f0b63932f3b2a430a72193ba7bbdab8d4b9c0d40b28e478ca08cfae310"
       },
       "assets": {
         "r01.symbols.xiaoputao": {
@@ -732,29 +736,29 @@
     "templatePatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/template-patterns.json",
-        "sha256": "7c9a387e73f2d7cefa3eac3667e8778214fb8632b9196a3805d477826933cafa"
+        "sha256": "a4e3af41f5f7826013e05fe740ff2eb93cf2fd90227bc5596c2c12e6aeccf4a6"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/template-patterns.ts",
-        "sha256": "8aa492867b1f7b7924721588b85df25e2fc09df753852e2ec499fa5e23b09556"
+        "sha256": "6878176fc5625ba3fc98756b0254af1183ef252b73d1000a0156f2ab6f21bc97"
       }
     },
     "motionSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/MOTION_SYSTEM_2026.md",
-      "sha256": "b4fe7cca959a31bd7bec2ba7494b23c7cd7f75d221d1f3fe40ecf09a71d1bde0"
+      "sha256": "7c7994460e04fa634ebd879fbc45cdab7aa8cdef9f5a9fcfe1b711a5c6d35af8"
     },
     "motionAudit": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/UI_2_MOTION_AUDIT.md",
-      "sha256": "9721a5f538286259b720be862b39fb0e2bd69ed4dfec7e98d9fc654075f136cb"
+      "sha256": "12d7dabe78f92f8748326f007345229646b48243eaecd6881a843fe66619d07e"
     },
     "motionPatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/motion-patterns.json",
-        "sha256": "3519b9fdebfe7786bb02a1c12f1e2439abc47893a9588d92896b0a83a375371e"
+        "sha256": "b83c9c5e9fbb951f793ecced35dd050a2b57944d6c37495e5da318c9d05ec1a3"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/motion-patterns.ts",
-        "sha256": "015e43e9299246f16b27cfa1d6aaab1d177217934c7263bc800cbc13c4775017"
+        "sha256": "59555251ed6084d0a9346d11cfe5b5d8e16497b7f9431452afa740626940667f"
       }
     },
     "icons": {
@@ -814,7 +818,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
-        "sha256": "3614f96e3380e5ea28cbe9f3a69b93037e129dfc16056a7717bbd9426fc0e5c8"
+        "sha256": "050b8f25614574ecd36338526e28b93a3f70f0fc1e5142bb4571776f9b44fc9c"
       }
     },
     "externalBrands": {
@@ -824,7 +828,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brands.ts",
-        "sha256": "9342a3874dc8c0186642f38c996b3defbd7d0d365a090f57c365f767ee054c58"
+        "sha256": "cf9ce6db794a0aac7bfbbcfed06a5fb8cfde4077707d3b051dfcb7625289a555"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.json",
@@ -832,7 +836,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.ts",
-        "sha256": "b96c30aeff94be4b31480b2dd8c5e98a70a9c0c7c263254972af0b5934674593"
+        "sha256": "a39ec0734561d996a40fdc9697f8c846f7644d305a304523eca5a334eb00c462"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/official-brand-sources.json",
@@ -841,7 +845,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "e185dd258aec823b4b1126959e44299cdf17b111bc7d64b3ee4c297e88f1be48"
+      "sha256": "1aabded17acb743123c7200d42c514a30c478c091e10f4d5ad96a19a1d1d2ad7"
     }
   },
   "compatibility": {
