@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.10.0
+// Version: 2.11.0
 export type MotionPlatform = 'web' | 'mobile' | 'tablet';
 export type MotionPattern = {
   id: string;
@@ -95,7 +95,7 @@ export const smallTypeUI2026Motion = {
 } as const;
 export const motionPatternCatalog = {
   "standard": "small-type-ui-2026",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "count": 12,
   "patterns": [
     {

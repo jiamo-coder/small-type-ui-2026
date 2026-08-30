@@ -1,12 +1,12 @@
 // Generated from design-system/tokens.json.
 // Design Standard: 2026 小字号 UI 2.0
 // Standard ID: small-type-ui-2026
-// Version: 2.10.0
+// Version: 2.11.0
 export type ProductLogoRouteId = 'r01' | 'r02' | 'r03';
 export type ProductLogoAssetKind = 'symbols' | 'app-icons' | 'lockups' | 'mono-dark' | 'mono-light';
 export const productLogoFamily = {
   "standard": "small-type-ui-2026",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "sourcePackage": {
     "name": "小字辈系统 Logo 家族",
     "version": "v003",

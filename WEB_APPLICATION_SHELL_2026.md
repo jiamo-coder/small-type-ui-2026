@@ -3,7 +3,7 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.10.0
+Version: 2.11.0
 ```
 
 本参考用于带常驻导航的企业 Web 工作台。营销页、连续阅读文档、Mobile App 和 Pad 专用作业台不使用本框架。

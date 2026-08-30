@@ -3,7 +3,7 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.10.0
+Version: 2.11.0
 ```
 
 本文件是 `$small-type-ui-2026` 的动效专项审计格式。默认只读，不修改产品代码。
