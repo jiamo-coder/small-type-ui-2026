@@ -3,12 +3,12 @@
 ```text
 Design Standard: 2026 小字号 UI 2.0
 Standard ID: small-type-ui-2026
-Version: 2.9.0
+Version: 2.10.0
 ```
 
 ## 研究目的
 
-本研究从小红花、小金矿、小点位、小太阳、小总管和小葫芦的当前本地界面中提炼可复用的信息结构、交互闭环和响应式方法。来源系统只用于追溯设计经验；模板不复制业务代码、接口、权限、数据或行业规则。
+本研究从小红花、小金矿、小点位、小太阳、小总管和小葫芦的当前本地界面中提炼产品工作台模板，并从 Goodthings 官网只读提炼企业官网连续叙事与转化结构。来源系统只用于追溯设计经验；模板不复制业务代码、接口、权限、数据、品牌素材或行业规则。
 
 机器可读目录见 `design-system/template-patterns.json`。在线预览使用同一目录，Skill 在审计与实施时也从该目录选择模板。
 
@@ -17,7 +17,7 @@ Version: 2.9.0
 1. 提炼“用户要完成的判断或行动”，不提炼具体业务名词。
 2. 保留被真实页面验证过的信息顺序、状态表达和交互关系，不复制视觉噱头。
 3. 同一模板必须说明必要数据与失败状态，避免只有理想态截图。
-4. Web、Mobile、Pad 分别设计；响应式不是等比缩放。
+4. Web、Mobile、Pad、Website 分别设计；响应式不是等比缩放，Website 不使用企业工作台应用壳。
 5. 来源系统的领域规则只留在来源系统，不能通过模板进入其他产品。
 6. 已有固定顶部和当前页面标识时，不重复展示页面介绍；模板首屏从状态、筛选、任务或简易可视化开始。
 
@@ -73,6 +73,14 @@ Version: 2.9.0
 
 不可泛化：库存成本算法、生产 BOM、批次 FEFO 和正式过账规则。
 
+### Goodthings 官网（只读来源）
+
+- 使用连续滚动串联价值主张、问题、能力、证据、边界与联系转化，形成编辑式阅读节奏。
+- 导航克制、主要转化单一；图片、观点标题和深浅区块承担节奏，而非用等宽卡片填满页面。
+- 原型不伪造客户数据、评价、表单后台或分析统计，并明确 noindex 与本地字体边界。
+
+不可泛化：品牌色、标题字体气质、图片、零售业务承诺、公司信息和具体内容文案。现有 8–11px 与 550/650 临时样式也不进入规范。
+
 ## 模板选择方法
 
 先判断五个问题：用户要“看结论、查对象、做诊断、作决策还是完成作业”；同时处理多少对象；任务频率；是否需要证据或审核；设备与主要输入方式。再从目录选择一个主模板，必要时组合一个支持模板。
@@ -84,6 +92,9 @@ Version: 2.9.0
 - 队列式风险或审批：`risk-queue-master-detail` 或 `tablet-approval-master-detail`。
 - 复杂现场录入：`tablet-offline-step-workbench` 或 `tablet-high-frequency-entry-console`。
 - 移动 AI 助手、智能体或对话工具：`mobile-conversational-agent-canvas`。
+- 企业官网首页：`website-enterprise-narrative-home`；产品或行业落地页：`website-product-solution-landing`。
+- 官网能力导航与说明：`website-capability-catalog` 或 `website-capability-detail`。
+- 官网真实证据和最终转化：`website-evidence-case-study` 或 `website-trust-contact`。
 
 不要因为来源系统相似就选择模板；以用户任务和必要数据为准。
 
