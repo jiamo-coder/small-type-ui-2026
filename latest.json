@@ -2,7 +2,7 @@
   "standard": {
     "name": "2026 小字号 UI 2.0",
     "id": "small-type-ui-2026",
-    "version": "2.10.0",
+    "version": "2.11.0",
     "updated": "2026-08-30"
   },
   "channel": "stable",
@@ -11,27 +11,45 @@
   "resources": {
     "designSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/DESIGN_SYSTEM.md",
-      "sha256": "0dc90a110e510a574e774b7759ca155ffa673ff03c18e74a4fc3613eeccf7b9f"
+      "sha256": "562db12619f484f28d1fc71dc195442ca2e8cc657239be4e79d350635f9c701c"
     },
     "webApplicationShell": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/WEB_APPLICATION_SHELL_2026.md",
-      "sha256": "949cbd3439f9aa1634eb95f907ef6182d96f779119fa8878b0e8c11c6f283a4e"
+      "sha256": "45387f7b16863cbc0bc4c575805d7e983dd2cea6fcc2c9c3a762f26e45cb2c3a"
     },
     "websiteStandard": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/WEBSITE_STANDARD_2026.md",
-      "sha256": "4665b5159bcb251154859a0673f0c4d4b73180c4c5968cc50d885140c6f843b8"
+      "sha256": "a7d1c9247a9fef6491cf90683bf628cb799d990e9223c0b1707ec617732fbf44"
+    },
+    "designMethod": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/UI_DESIGN_METHOD_2026.md",
+      "sha256": "58fa139242c7d4930bbd39a5b572a3c20e9171a89d7669d93f5843d633782130"
+    },
+    "uiMethodResearch": {
+      "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/UI_METHOD_RESEARCH_2026.md",
+      "sha256": "2ab7ce400f1d4c26e810960db4db1462dab4b8778ee5118907f3a75784a968e5"
+    },
+    "uiQualityRules": {
+      "registry": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/ui-quality-rules.json",
+        "sha256": "16015e10edaf553cd70c2f39455ad9fbeb8ad55dba5fdee2f81fd84459ef685f"
+      },
+      "typescript": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/ui-quality-rules.ts",
+        "sha256": "49e4d2026174ead1fdbb1fde00d79a866e79a6af688e295aba408bb06d03f152"
+      }
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/tokens.json",
-      "sha256": "01d1e84a56afb611ea276fee631177580117bfb74f59ca49bfc6dac069516ffa"
+      "sha256": "0c1aadc4edad524e846a83770cd35f2f7476751f830c26b37f22a2373f49304d"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CHANGELOG.md",
-      "sha256": "fe04a62eb5a4b73f7c8f9bcb2ed3705f7d4aa3c967812d099fa8594b7b2da742"
+      "sha256": "0438968f20ad966af6b64848b1510bbbbc22c6f4b896668b3107fd926d16e4cb"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/SKILL.md",
-      "sha256": "db5c65b63e86d9e383c785fe18d39ffe11ae087c05051876a4912338bee1b686"
+      "sha256": "a6e4b24cde1b6a34bb7aa65d333563f385de55f85b62caec54308211a0ee822d"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -43,32 +61,32 @@
     },
     "mobileResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/MOBILE_RESEARCH_2026.md",
-      "sha256": "82943792623787e6bdfc11a0ee91d370ee8a193d60c7002e74b80e5e1bf6fa13"
+      "sha256": "c9a5f12a448d8e3cdce67a9966b88d62552099e66685e4855d32e9f71bf25409"
     },
     "conversationalAgentResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/CONVERSATIONAL_AGENT_RESEARCH_2026.md",
-      "sha256": "2e1fd6e701036cf5f4e778080ecef9f5b45f4500d13d5f3d9ef2c42fece1c1f8"
+      "sha256": "c1050b65d425ce1031e221b58293dd98deeef0a7f787081c0e4d31db09975d0b"
     },
     "tabletResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/TABLET_RESEARCH_2026.md",
-      "sha256": "b3ba359b4a4ed991f29bb55d89dcf3b1ab4d439182f97a63de0411aa9787aca9"
+      "sha256": "f9e7058900492b14836714ebaaff1dba5791eb4588cfa6b442022a107ccd1788"
     },
     "templateResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/PRODUCT_TEMPLATE_LIBRARY_2026.md",
-      "sha256": "a3f048ea3991723288d789b42eac46c29b057b8d2a9c489b837fda370a61a267"
+      "sha256": "a61ddf75293fbad4ab57d790db6ff6374657cd50f88aa096d1a7125222477f10"
     },
     "productLogoFamily": {
       "reference": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/PRODUCT_LOGO_FAMILY_2026.md",
-        "sha256": "4e3b8248d25885db72d7eba1df80a23c945c34fd0c71ac0e7d586b86a27d5a51"
+        "sha256": "cf80214bb0a1961286f2acc00eb0b5de7694fc44812407302e4815fc7d31c32f"
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/product-logo-family.json",
-        "sha256": "6481b13eba3682192f590a55f0b43e391f6b493b16ad1fbc12197b8d5dfb1cf8"
+        "sha256": "c140d4802dba9ea1c57ec80fe6850dd39bf26c2df853c761c16c3eec84127c83"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/product-logo-family.ts",
-        "sha256": "79bd29f0b63932f3b2a430a72193ba7bbdab8d4b9c0d40b28e478ca08cfae310"
+        "sha256": "b82484848e1842e68a3a720037a6ccf056f82dc150c4f77e2b18c9d621ff7f6f"
       },
       "assets": {
         "r01.symbols.xiaoputao": {
@@ -736,29 +754,29 @@
     "templatePatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/template-patterns.json",
-        "sha256": "a4e3af41f5f7826013e05fe740ff2eb93cf2fd90227bc5596c2c12e6aeccf4a6"
+        "sha256": "408d31d2202ec5483228130a3639c130b77081b87f9dfb93e935f8fb4e2aab9d"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/template-patterns.ts",
-        "sha256": "6878176fc5625ba3fc98756b0254af1183ef252b73d1000a0156f2ab6f21bc97"
+        "sha256": "d30fc2ed733b1943e4411bf49917242528ce44945b3fdd1d10bbef05044b847e"
       }
     },
     "motionSystem": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/MOTION_SYSTEM_2026.md",
-      "sha256": "7c7994460e04fa634ebd879fbc45cdab7aa8cdef9f5a9fcfe1b711a5c6d35af8"
+      "sha256": "3064cd872f6d5ac527f375cddde13bcd8bfc876a43583dfe52732c7d31b39426"
     },
     "motionAudit": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/UI_2_MOTION_AUDIT.md",
-      "sha256": "12d7dabe78f92f8748326f007345229646b48243eaecd6881a843fe66619d07e"
+      "sha256": "5af7eeb654d48de4d5b19b27cc9b18164d4cfa2bf17c8312afb5b877fac135aa"
     },
     "motionPatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/motion-patterns.json",
-        "sha256": "b83c9c5e9fbb951f793ecced35dd050a2b57944d6c37495e5da318c9d05ec1a3"
+        "sha256": "02ea14b5d2f65147507a1c04ebf0e8cd10a676fe5a85176b6e928af7da7dd5e5"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/motion-patterns.ts",
-        "sha256": "59555251ed6084d0a9346d11cfe5b5d8e16497b7f9431452afa740626940667f"
+        "sha256": "4ce90bdd029163f9de7c3dff896f2672d7c5ff7d5a45aae30b546853fbfc825f"
       }
     },
     "icons": {
@@ -818,7 +836,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/icons/common-icons.ts",
-        "sha256": "050b8f25614574ecd36338526e28b93a3f70f0fc1e5142bb4571776f9b44fc9c"
+        "sha256": "820252f33dbab912d940dfcf21b774ecbb20f5146e6221fb637d6d1438e5942c"
       }
     },
     "externalBrands": {
@@ -828,7 +846,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brands.ts",
-        "sha256": "cf9ce6db794a0aac7bfbbcfed06a5fb8cfde4077707d3b051dfcb7625289a555"
+        "sha256": "a4cdd0cd31ac9e3fb0b8d3634c1949c6324312bf1da09488890965ea5a41825d"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.json",
@@ -836,7 +854,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/external-brand-assets.ts",
-        "sha256": "a39ec0734561d996a40fdc9697f8c846f7644d305a304523eca5a334eb00c462"
+        "sha256": "7c90dedc8568c35f55fce71a8bbf3c564c66e2b8144576a7cf0342b8c0bb7ddb"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/external-brands/official-brand-sources.json",
@@ -845,7 +863,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/2026-small-type-ui-2.0.zip",
-      "sha256": "1aabded17acb743123c7200d42c514a30c478c091e10f4d5ad96a19a1d1d2ad7"
+      "sha256": "aff1041f1fa7aa876081af62ccc7d1074c0733f529dd67692a5cc2667e395a72"
     }
   },
   "compatibility": {
