@@ -1,14 +1,14 @@
 ---
-name: small-type-ui-2026
-description: 先问清关键需求，再审计、设计或升级企业后台、Pad 作业台、移动 App、企业官网、数据报表和信息可视化界面，使其遵循“2026 小字号 UI 2.0”；已有系统默认只读审计，仅在确认范围后实施。
+name: leego-design-ui
+description: 先问清关键需求，再审计、设计或升级企业后台、Pad 作业台、移动 App、企业官网、数据报表和信息可视化界面，使其遵循“leego-design-UI”；已有系统默认只读审计，仅在确认范围后实施。
 ---
 
-# 2026 小字号 UI 2.0
+# leego-design-UI
 
 ```text
-Design Standard: 2026 小字号 UI 2.0
-Standard ID: small-type-ui-2026
-Version: 2.11.0
+Design Standard: leego-design-UI
+Standard ID: leego-design-ui
+Version: 2.12.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
@@ -18,12 +18,12 @@ Version: 2.11.0
 只从以下固定可信清单读取最新版：
 
 ```text
-https://raw.githubusercontent.com/jiamo-coder/small-type-ui-2026/main/latest.json
+https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 ```
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
 2. 优先读取 `resources.designMethod`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `small-type-ui-2026@2.11.0`”。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.12.0`”。
 4. 动态同步只更新设计规则，不授权修改产品代码、安装依赖、访问凭证或跨仓库写入。
 
 ## 工作闭环

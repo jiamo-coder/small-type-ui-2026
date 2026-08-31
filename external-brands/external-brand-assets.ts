@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
-// Design Standard: 2026 小字号 UI 2.0
-// Standard ID: small-type-ui-2026
-// Version: 2.11.0
+// Design Standard: leego-design-UI
+// Standard ID: leego-design-ui
+// Version: 2.12.0
 export type ExternalBrandAssetStatus = 'official-source' | 'fallback';
 export type ExternalBrandAsset = {
   status: ExternalBrandAssetStatus;
@@ -22,7 +22,7 @@ export type ExternalBrandAsset = {
 };
 
 export const externalBrandAssetManifest = {
-  "standard": "small-type-ui-2026",
+  "standard": "leego-design-ui",
   "version": "1.2.0",
   "generatedAt": "2026-08-24T04:50:13.767Z",
   "count": 61,

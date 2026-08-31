@@ -1,8 +1,8 @@
-# 2026 小字号 UI 2.0 · 字体审计
+# leego-design-UI · 字体审计
 
 ```text
-Design Standard: 2026 小字号 UI 2.0
-Standard ID: small-type-ui-2026
+Design Standard: leego-design-UI
+Standard ID: leego-design-ui
 Audit baseline: 2.0.10
 Implementation target: 2.1.0
 Audit date: 2026-08-23
@@ -38,7 +38,7 @@ Audit date: 2026-08-23
 
 | 项目 | 原因 | 后续方式 |
 | --- | --- | --- |
-| 小葡萄、小红花、小算盘等其他系统 | 当前不在本仓库，不能安全推断组件和业务布局 | 每个仓库用 `$small-type-ui-2026` 单独生成 `UI_2_AUDIT.md` 后确认实施 |
+| 小葡萄、小红花、小算盘等其他系统 | 当前不在本仓库，不能安全推断组件和业务布局 | 每个仓库用 `$leego-design-ui` 单独生成 `UI_2_AUDIT.md` 后确认实施 |
 | 全平台真机字体回退 | 当前预览环境无法覆盖所有实际 OEM 字体 | 发布前由设备实验室完成 iOS、Android、HarmonyOS 真机抽查 |
 | 业务数据极限压力 | 原型数据不能覆盖所有真实字段长度 | 接入真实脱敏数据后补充最长 5% 字段回归用例 |
 

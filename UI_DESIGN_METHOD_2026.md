@@ -1,9 +1,9 @@
-# 2026 小字号 UI 2.0 · 设计问诊与减法方法
+# leego-design-UI · 设计问诊与减法方法
 
 ```text
-Design Standard: 2026 小字号 UI 2.0
-Standard ID: small-type-ui-2026
-Version: 2.11.0
+Design Standard: leego-design-UI
+Standard ID: leego-design-ui
+Version: 2.12.0
 ```
 
 本方法用于新页面设计、已有系统审计和已确认范围的前端实施。目标是先消除会改变方案的未知，再用固定模板和减法检查减少随机性。它不替代业务确认，也不授权修改后台接口、权限、数据结构或业务规则。

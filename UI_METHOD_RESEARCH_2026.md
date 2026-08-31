@@ -1,9 +1,9 @@
-# 2026 小字号 UI 2.0 · 设计方法研究记录
+# leego-design-UI · 设计方法研究记录
 
 ```text
-Design Standard: 2026 小字号 UI 2.0
-Standard ID: small-type-ui-2026
-Version: 2.11.0
+Design Standard: leego-design-UI
+Standard ID: leego-design-ui
+Version: 2.12.0
 ```
 
 本记录说明本次方法升级吸收了什么、拒绝了什么，以及为什么。外部资料只作为研究证据，不进入运行时依赖。

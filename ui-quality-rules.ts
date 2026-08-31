@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
-// Design Standard: 2026 小字号 UI 2.0
-// Standard ID: small-type-ui-2026
-// Version: 2.11.0
+// Design Standard: leego-design-UI
+// Standard ID: leego-design-ui
+// Version: 2.12.0
 export type UiDesignRead = {
   mode: 'new-design' | 'audit' | 'implementation';
   platform: 'web' | 'mobile' | 'tablet' | 'website';
@@ -21,8 +21,8 @@ export type UiQualityRule = {
   message: string;
 };
 export const uiQualityCatalog = {
-  "standard": "small-type-ui-2026",
-  "version": "2.11.0",
+  "standard": "leego-design-ui",
+  "version": "2.12.0",
   "updated": "2026-08-30",
   "designReadRequiredFields": [
     "mode",

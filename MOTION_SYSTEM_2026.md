@@ -1,9 +1,9 @@
-# 2026 小字号 UI 2.0 · 企业产品动效系统
+# leego-design-UI · 企业产品动效系统
 
 ```text
-Design Standard: 2026 小字号 UI 2.0
-Standard ID: small-type-ui-2026
-Version: 2.11.0
+Design Standard: leego-design-UI
+Standard ID: leego-design-ui
+Version: 2.12.0
 ```
 
 本规范用于企业 Web 工作台、Mobile App、Pad 作业台和数据可视化界面。动效的目标是让状态、空间关系和操作结果更容易理解，不是让高频界面持续表演。

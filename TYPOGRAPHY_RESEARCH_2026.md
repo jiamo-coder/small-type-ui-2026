@@ -1,8 +1,8 @@
-# 2026 小字号 UI 2.0 · 中文字体调研
+# leego-design-UI · 中文字体调研
 
 ```text
-Design Standard: 2026 小字号 UI 2.0
-Standard ID: small-type-ui-2026
+Design Standard: leego-design-UI
+Standard ID: leego-design-ui
 Version: 2.1.0
 Research date: 2026-08-23
 ```

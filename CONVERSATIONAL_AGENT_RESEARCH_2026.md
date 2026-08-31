@@ -1,9 +1,9 @@
-# 2026 小字号 UI 2.0 · 移动对话智能体研究
+# leego-design-UI · 移动对话智能体研究
 
 ```text
-Design Standard: 2026 小字号 UI 2.0
-Standard ID: small-type-ui-2026
-Version: 2.11.0
+Design Standard: leego-design-UI
+Standard ID: leego-design-ui
+Version: 2.12.0
 ```
 
 ## 研究目的与证据边界

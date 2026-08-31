@@ -1,6 +1,6 @@
 {
-  "standard": "small-type-ui-2026",
-  "version": "2.11.0",
+  "standard": "leego-design-ui",
+  "version": "2.12.0",
   "count": 12,
   "patterns": [
     {
