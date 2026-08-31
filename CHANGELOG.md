@@ -1,14 +1,14 @@
-# leego-design-UI Changelog
+# Leego Design UI Changelog
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```
 
 ## 2.12.0 — 2026-09-01
 
-- 将动态 UI Skill 正式更名为 `leego-design-UI`，技术 ID 与调用名统一为 `leego-design-ui` 和 `$leego-design-ui`。
+- 将动态 UI Skill 正式更名为 `Leego Design UI`，技术 ID 与调用名统一为 `leego-design-ui` 和 `$leego-design-ui`。
 - 固定动态清单迁移至 `jiamo-coder/leego-design-ui`，版本号继续作为独立元数据，不进入 Skill ID、目录名或固定地址。
 - 规范站、模板、图标、跨端主题、共享包、安装路径和 Codex 复制指令同步使用新品牌；下载地址固定为 `/downloads/leego-design-ui.zip`。
 - 本次采用立即切换，不提供 `$small-type-ui-2026` 兼容入口；历史名称仅保留在本迁移记录中。

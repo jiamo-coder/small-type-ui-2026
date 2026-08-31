@@ -1,7 +1,7 @@
-# leego-design-UI · 字体审计
+# Leego Design UI · 字体审计
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Audit baseline: 2.0.10
 Implementation target: 2.1.0

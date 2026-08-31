@@ -1,14 +1,14 @@
-# leego-design-UI · 中文移动数据界面研究
+# Leego Design UI · 中文移动数据界面研究
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```
 
 ## 研究范围
 
-本次研究基于用户提供的四张中文企业经营 App 截图，仅提炼移动端的信息架构、阅读顺序和交互模式。示例中的品牌、行业文案、绿色主色、图标造型和装饰效果不进入规范；视觉实现继续读取“leego-design-UI”的青黛紫、玉青、朱砂与中性色令牌。
+本次研究基于用户提供的四张中文企业经营 App 截图，仅提炼移动端的信息架构、阅读顺序和交互模式。示例中的品牌、行业文案、绿色主色、图标造型和装饰效果不进入规范；视觉实现继续读取“Leego Design UI”的青黛紫、玉青、朱砂与中性色令牌。
 
 ## 可复用的四类布局
 

@@ -1,12 +1,12 @@
 ---
 name: leego-design-ui
-description: 先问清关键需求，再审计、设计或升级企业后台、Pad 作业台、移动 App、企业官网、数据报表和信息可视化界面，使其遵循“leego-design-UI”；已有系统默认只读审计，仅在确认范围后实施。
+description: 先问清关键需求，再审计、设计或升级企业后台、Pad 作业台、移动 App、企业官网、数据报表和信息可视化界面，使其遵循“Leego Design UI”；已有系统默认只读审计，仅在确认范围后实施。
 ---
 
-# leego-design-UI
+# Leego Design UI
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```

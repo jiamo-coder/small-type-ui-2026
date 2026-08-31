@@ -1,7 +1,7 @@
-# leego-design-UI · Pad / Tablet 布局调研
+# Leego Design UI · Pad / Tablet 布局调研
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```
@@ -10,7 +10,7 @@ Version: 2.12.0
 
 Pad 不是放大的手机，也不是缩小的桌面后台。企业 Pad 的布局必须先识别操作姿态、任务闭环、输入设备和持续使用时间，再决定导航、主工作区与行动区的组合。
 
-“leego-design-UI”将 Pad 设为独立平台层，并采用四种基础模板：概览网格、列表详情、支持面板和高频作业台。视觉继续沿用青黛紫、玉青、朱砂与中性色；参考案例只用于学习空间组织，不复制其配色、图形或业务内容。
+“Leego Design UI”将 Pad 设为独立平台层，并采用四种基础模板：概览网格、列表详情、支持面板和高频作业台。视觉继续沿用青黛紫、玉青、朱砂与中性色；参考案例只用于学习空间组织，不复制其配色、图形或业务内容。
 
 ## 调研材料
 

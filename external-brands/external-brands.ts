@@ -1,5 +1,5 @@
 // Generated from design-system/tokens.json.
-// Design Standard: leego-design-UI
+// Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
 // Version: 2.12.0
 export type CommonIconName = 'home' | 'dashboard' | 'grid' | 'menu' | 'search' | 'filter' | 'back' | 'forward' | 'chevron-down' | 'expand' | 'collapse' | 'close' | 'add' | 'edit' | 'delete' | 'copy' | 'save' | 'download' | 'upload' | 'refresh' | 'share' | 'export' | 'import' | 'print' | 'more' | 'settings' | 'sort' | 'drag' | 'info' | 'success' | 'warning' | 'danger' | 'help' | 'pending' | 'loading' | 'lock' | 'unlock' | 'visible' | 'hidden' | 'disabled' | 'chart-line' | 'chart-bar' | 'chart-pie' | 'table' | 'trend-up' | 'trend-down' | 'report' | 'database' | 'sync' | 'compare' | 'calendar' | 'clock' | 'target' | 'funnel' | 'user' | 'users' | 'role' | 'department' | 'store' | 'location' | 'task' | 'bell' | 'message' | 'phone' | 'file' | 'folder' | 'attachment' | 'link' | 'channel' | 'social' | 'content' | 'short-video' | 'live' | 'marketplace' | 'instant-retail' | 'review' | 'payment' | 'bank' | 'bank-card' | 'wallet' | 'delivery' | 'logistics' | 'mini-program' | 'qr-code';

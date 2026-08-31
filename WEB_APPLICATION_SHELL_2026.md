@@ -1,7 +1,7 @@
-# leego-design-UI · Web 固定应用框架
+# Leego Design UI · Web 固定应用框架
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```

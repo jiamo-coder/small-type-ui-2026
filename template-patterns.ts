@@ -1,5 +1,5 @@
 // Generated from design-system/tokens.json.
-// Design Standard: leego-design-UI
+// Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
 // Version: 2.12.0
 export type TemplatePlatform = 'web' | 'mobile' | 'tablet' | 'website';

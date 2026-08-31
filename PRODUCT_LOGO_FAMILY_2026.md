@@ -1,7 +1,7 @@
-# leego-design-UI · 产品 Logo 家族
+# Leego Design UI · 产品 Logo 家族
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 Source Package: system-logo-family/v003

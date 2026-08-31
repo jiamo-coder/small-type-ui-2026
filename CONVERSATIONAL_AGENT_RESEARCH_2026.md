@@ -1,7 +1,7 @@
-# leego-design-UI · 移动对话智能体研究
+# Leego Design UI · 移动对话智能体研究
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```

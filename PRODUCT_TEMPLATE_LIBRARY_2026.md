@@ -1,7 +1,7 @@
-# leego-design-UI · 跨系统优质模板研究
+# Leego Design UI · 跨系统优质模板研究
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```

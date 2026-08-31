@@ -1,6 +1,6 @@
-# leego-design-UI · 企业官网标准
+# Leego Design UI · 企业官网标准
 
-Design Standard: leego-design-UI  
+Design Standard: Leego Design UI  
 Standard ID: leego-design-ui  
 Version: 2.12.0
 

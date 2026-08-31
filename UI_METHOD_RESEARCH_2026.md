@@ -1,7 +1,7 @@
-# leego-design-UI · 设计方法研究记录
+# Leego Design UI · 设计方法研究记录
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.12.0
 ```

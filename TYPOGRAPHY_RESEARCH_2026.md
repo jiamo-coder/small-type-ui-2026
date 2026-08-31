@@ -1,7 +1,7 @@
-# leego-design-UI · 中文字体调研
+# Leego Design UI · 中文字体调研
 
 ```text
-Design Standard: leego-design-UI
+Design Standard: Leego Design UI
 Standard ID: leego-design-ui
 Version: 2.1.0
 Research date: 2026-08-23
