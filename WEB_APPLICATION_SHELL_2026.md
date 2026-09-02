@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.12.0
+Version: 2.13.0
 ```
 
 本参考用于带常驻导航的企业 Web 工作台。营销页、连续阅读文档、Mobile App 和 Pad 专用作业台不使用本框架。

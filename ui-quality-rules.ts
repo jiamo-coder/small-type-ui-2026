@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.12.0
+// Version: 2.13.0
 export type UiDesignRead = {
   mode: 'new-design' | 'audit' | 'implementation';
   platform: 'web' | 'mobile' | 'tablet' | 'website';
@@ -22,7 +22,7 @@ export type UiQualityRule = {
 };
 export const uiQualityCatalog = {
   "standard": "leego-design-ui",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "updated": "2026-08-30",
   "designReadRequiredFields": [
     "mode",

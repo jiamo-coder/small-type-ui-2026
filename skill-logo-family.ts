@@ -1,0 +1,106 @@
+// Generated from design-system/tokens.json.
+// Design Standard: Leego Design UI
+// Standard ID: leego-design-ui
+// Version: 2.13.0
+export type SkillLogoRouteId = 'r01' | 'r02' | 'r03';
+export const skillLogoFamily = {
+  "standard": "leego-design-ui",
+  "version": "2.13.0",
+  "family": "Leego Design Skill Logo Family",
+  "member": {
+    "id": "leego-design-ui",
+    "displayName": "Leego Design UI",
+    "accent": "#3F67E8",
+    "ink": "#191A17",
+    "primaryRoute": "r02"
+  },
+  "sourcePackage": {
+    "name": "leego-design-skill-family",
+    "version": "v003",
+    "adoptionStatus": "r02-approved-as-primary-r01-r03-contextual",
+    "note": "用户已确认本组 Skill Logo 选型；R02 为主标，R01 与 R03 仅按场景响应。"
+  },
+  "sharedInvariants": [
+    "64×64 视图框",
+    "右上身份点",
+    "UI 专属蓝 #3F67E8",
+    "固定几何比例",
+    "不得增加眼睛、星芒、机器人或灯泡等装饰"
+  ],
+  "routes": [
+    {
+      "id": "r01",
+      "title": "圆润构件",
+      "englishTitle": "ROUNDED COMPONENTS",
+      "role": "light-expression",
+      "asset": "skill-logo/r01-symbol.svg",
+      "websiteAsset": "brand/leego-design-ui/r01-symbol.svg",
+      "minimumSize": 24,
+      "uses": [
+        "内容栏目",
+        "轻量品牌表达",
+        "有名称伴随的社交头像"
+      ],
+      "avoid": [
+        "增加构件数量",
+        "把身份点并入普通组件",
+        "替代官网主标"
+      ]
+    },
+    {
+      "id": "r02",
+      "title": "开口框架",
+      "englishTitle": "OPEN FRAME",
+      "role": "primary",
+      "asset": "skill-logo/r02-symbol.svg",
+      "websiteAsset": "brand/leego-design-ui/r02-symbol.svg",
+      "minimumSize": 20,
+      "uses": [
+        "官网导航",
+        "Skill 入口",
+        "文档页眉",
+        "能力总览"
+      ],
+      "avoid": [
+        "封闭开口",
+        "移动身份点",
+        "改变内部模块数量",
+        "深色底直接使用黑色原稿"
+      ]
+    },
+    {
+      "id": "r03",
+      "title": "实心模块",
+      "englishTitle": "SOLID MODULE",
+      "role": "micro",
+      "asset": "skill-logo/r03-symbol.svg",
+      "websiteAsset": "brand/leego-design-ui/r03-symbol.svg",
+      "minimumSize": 16,
+      "uses": [
+        "Skill 列表",
+        "favicon",
+        "App Icon",
+        "系统切换器",
+        "深色背景"
+      ],
+      "avoid": [
+        "替代官网横向主标",
+        "移除右上身份点",
+        "添加阴影或渐变"
+      ]
+    }
+  ],
+  "displayRules": {
+    "lightBackground": "优先 R02；小于 20px 使用 R03。",
+    "darkBackground": "使用 R03，或将 R02 放入白色/浅色中性容器；禁止 CSS filter 改色。",
+    "wordmark": "符号旁以真实文本显示 Leego Design UI，避免 SVG 字体许可与跨平台替换问题。",
+    "clearSpace": "最小保护空间为身份点直径，四周不得贴边。",
+    "minimumTouchTarget": 44
+  },
+  "status": {
+    "digitalUse": "approved",
+    "outlinedWordmark": "pending",
+    "trademarkSearch": "not-performed"
+  }
+} as const;
+export const skillLogoAssetPath = (route: SkillLogoRouteId) => `/brand/leego-design-ui/${route}-symbol.svg`;

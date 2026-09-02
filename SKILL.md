@@ -8,7 +8,7 @@ description: 先问清关键需求，再审计、设计或升级企业后台、P
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.12.0
+Version: 2.13.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
@@ -22,8 +22,8 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 ```
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
-2. 优先读取 `resources.designMethod`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.12.0`”。
+2. 优先读取 `resources.designMethod`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.13.0`”。
 4. 动态同步只更新设计规则，不授权修改产品代码、安装依赖、访问凭证或跨仓库写入。
 
 ## 工作闭环
@@ -53,9 +53,19 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 按 `平台 → 页面目标 → 对象规模 → 操作频率 → 证据/审核要求` 选择一个主模板，最多增加一个支持模板。模板约束信息顺序和交互闭环，不是业务数据合同，不得随机生成布局或把多个完整工作台堆在一页。
 
-Website 读取 [references/website-standard.md](references/website-standard.md)；带侧栏 Web 工作台读取 [references/web-application-shell.md](references/web-application-shell.md)；Mobile、Tablet、动效、产品 Logo 和第三方品牌仅在相关时读取对应 references/assets。
+Website 读取 [references/website-standard.md](references/website-standard.md)；带侧栏 Web 工作台读取 [references/web-application-shell.md](references/web-application-shell.md)；Mobile、Tablet、动效、Skill Logo、产品 Logo 和第三方品牌仅在相关时读取对应 references/assets。
 
-### 4. 先做减法
+### 4. Skill 品牌标识固定选型
+
+Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/skill-logo-family.md) 与 [assets/skill-logo-family.json](assets/skill-logo-family.json)：
+
+- R02 开口框架是官网、Skill 入口、文档页眉与能力总览的固定主标。
+- R01 圆润构件只用于轻量内容表达；R03 实心模块用于 favicon、Skill 列表、小尺寸和深色背景。
+- 名称必须写作 `Leego Design UI`；版本号独立显示，不进入名称、技术 ID、调用名或固定地址。
+- 不得把 Skill 标识替代产品 Logo、通用 UI 图标、状态图标或第三方品牌；不得改几何、身份蓝、身份点、增加阴影渐变或使用 CSS filter。
+- 深色背景优先 R03；若必须用 R02，应放入中性浅色容器，不临时制造未经登记的反白稿。
+
+### 5. 先做减法
 
 每个可见元素必须至少服务于：`页面上下文 / 用户决策 / 业务行动 / 状态风险 / 数据证据 / 可访问性`。否则删除、合并或降级。
 

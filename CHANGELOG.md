@@ -3,8 +3,16 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.12.0
+Version: 2.13.0
 ```
+
+## 2.13.0 — 2026-09-02
+
+- 将 Leego Design Skill Logo 家族正式纳入 UI 规范：R02 开口框架固定为官网、Skill 入口与文档主标，R01 圆润构件和 R03 实心模块仅按轻量、小尺寸及深色场景响应。
+- 新增 `SKILL_LOGO_FAMILY_2026.md`、机器可读登记表、TypeScript 映射与三枚无外部依赖 SVG；固定右上身份点、UI 蓝 `#3F67E8`、最小尺寸、保护空间和禁止改造规则。
+- 规范站移除临时字母 `L`，首页、设计规范、模板馆、Mobile、Pad、Website 与图标库统一使用 R02；移动小尺寸入口和 favicon 使用 R03。
+- 动态清单新增 `resources.skillLogoFamily`，共享 ZIP、本地 Skill 与 GitHub 动态资源沿用固定地址和 `$leego-design-ui` 调用名。
+- 明确 Skill 标识、产品 Logo、通用 UI 图标和外部生态品牌四层边界；当前数字使用已确认，锁定字标轮廓化和商标检索仍单独标记为待完成。
 
 ## 2.12.0 — 2026-09-01
 
